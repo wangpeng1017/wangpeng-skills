@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdr5b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdr5b)"/>
+
+  <!-- Badge -->
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="53" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">01 背景</text>
+  <!-- Page title -->
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">NPI全流程活动总览：角色 × 阶段</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="100" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">磁声NPI涵盖5大职能角色、3大阶段、数十项核心业务活动，平台需统一承载与协同</text>
+
+  <!-- ===== Matrix layout ===== -->
+  <!-- Stage headers -->
+  <!-- Role label column: x=60~155, cols: DR x=160~430, Proto/EVT/DVT/PVT x=435~870, RAMP x=875~1230 -->
+
+  <!-- Stage header BG -->
+  <rect x="160" y="108" width="270" height="32" rx="4" fill="#003A6E"/>
+  <rect x="435" y="108" width="435" height="32" rx="4" fill="#005198"/>
+  <rect x="875" y="108" width="355" height="32" rx="4" fill="#003A6E"/>
+
+  <text x="295" y="129" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#5ACBF0" text-anchor="middle">DR</text>
+  <text x="652" y="129" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8EDF2" text-anchor="middle">Proto (P1-P2) / EVT / DVT / PVT</text>
+  <text x="1052" y="129" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#5ACBF0" text-anchor="middle">RAMP</text>
+
+  <!-- Row heights: 5 rows from y=143 to y=620, each ~95px -->
+  <!-- Vertical separators -->
+  <line x1="155" y1="108" x2="155" y2="622" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="430" y1="108" x2="430" y2="622" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="872" y1="108" x2="872" y2="622" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Row 1: PM — y=143 to y=238 -->
+  <rect x="60" y="143" width="1170" height="95" fill="#002A52" fill-opacity="0.5"/>
+  <rect x="60" y="143" width="94" height="95" fill="#003A6E" fill-opacity="0.4"/>
+  <text x="107" y="195" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">PM</text>
+  <!-- DR col -->
+  <text x="167" y="164" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 项目立项 / 接收图纸</text>
+  <text x="167" y="181" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• DFM任务策划与分配</text>
+  <text x="167" y="198" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 节点计划制定</text>
+  <!-- Proto col -->
+  <text x="442" y="164" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 项目进度跟踪 / 风险预警</text>
+  <text x="442" y="181" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 跨部门协调 / 里程碑评审</text>
+  <text x="442" y="198" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• NPI表单审批</text>
+  <!-- RAMP col -->
+  <text x="882" y="164" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 项目总结 / 量产移交</text>
+  <text x="882" y="181" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 经验归档</text>
+
+  <!-- Row 2: 工程 — y=238 to y=333 -->
+  <rect x="60" y="238" width="1170" height="95" fill="#001E3A" fill-opacity="0.5"/>
+  <rect x="60" y="238" width="94" height="95" fill="#003A6E" fill-opacity="0.4"/>
+  <text x="107" y="288" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">工程</text>
+  <!-- DR col -->
+  <text x="167" y="258" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 2D/3D图纸评审(DR)</text>
+  <text x="167" y="275" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• DFM策划（单件/组件）</text>
+  <text x="167" y="292" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 工艺流程设计</text>
+  <!-- Proto col -->
+  <text x="442" y="258" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 手工打样跟线 / 打样结果确认</text>
+  <text x="442" y="275" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 夹具制造 / DOE / CAE仿真</text>
+  <text x="442" y="292" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 工艺流程图 / SOP 输出</text>
+  <!-- RAMP col -->
+  <text x="882" y="258" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 生产验证与量产优化</text>
+  <text x="882" y="275" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 工艺流程图最终版</text>
+
+  <!-- Row 3: 生产 — y=333 to y=428 -->
+  <rect x="60" y="333" width="1170" height="95" fill="#002A52" fill-opacity="0.5"/>
+  <rect x="60" y="333" width="94" height="95" fill="#003A6E" fill-opacity="0.4"/>
+  <text x="107" y="383" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">生产</text>
+  <!-- DR col -->
+  <text x="295" y="380" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#4A6A8A" text-anchor="middle">—</text>
+  <!-- Proto col -->
+  <text x="442" y="358" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 手工样件打样（P1/P2）</text>
+  <text x="442" y="375" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 良率报告输出</text>
+  <text x="442" y="392" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 作业指导书执行</text>
+  <!-- RAMP col -->
+  <text x="882" y="358" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 量产线建立与稳定运行</text>
+  <text x="882" y="375" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 自动化产线 / SOP执行</text>
+
+  <!-- Row 4: 品质 — y=428 to y=523 -->
+  <rect x="60" y="428" width="1170" height="95" fill="#001E3A" fill-opacity="0.5"/>
+  <rect x="60" y="428" width="94" height="95" fill="#003A6E" fill-opacity="0.4"/>
+  <text x="107" y="478" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">品质</text>
+  <!-- DR col -->
+  <text x="167" y="448" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• Q-Plan 策划</text>
+  <text x="167" y="465" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 图纸评审（品质视角）</text>
+  <text x="167" y="482" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 检测项目策划</text>
+  <!-- Proto col -->
+  <text x="442" y="448" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• GRR / CRR 验证报告</text>
+  <text x="442" y="465" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• IQC / OQC 计划</text>
+  <text x="442" y="482" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 可靠性测试计划 / 外观标准</text>
+  <!-- RAMP col -->
+  <text x="882" y="448" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• CPK 报告 / OQC 出货检验</text>
+  <text x="882" y="465" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• SIP 最终版</text>
+
+  <!-- Row 5: 计量 — y=523 to y=618 -->
+  <rect x="60" y="523" width="1170" height="95" fill="#002A52" fill-opacity="0.5"/>
+  <rect x="60" y="523" width="94" height="95" fill="#003A6E" fill-opacity="0.4"/>
+  <text x="107" y="573" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">计量</text>
+  <!-- DR col -->
+  <text x="167" y="543" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• MTD 测量方案策划</text>
+  <text x="167" y="560" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 量具设计</text>
+  <!-- Proto col -->
+  <text x="442" y="543" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• MTD 检测执行</text>
+  <text x="442" y="560" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• CPK 报告 / FAI 报告</text>
+  <text x="442" y="577" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 测量 SOP 策划</text>
+  <!-- RAMP col -->
+  <text x="882" y="543" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 量产测量 SOP 最终版</text>
+  <text x="882" y="560" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#B9C8D8">• 过程能力持续监控</text>
+
+  <!-- Outer border -->
+  <rect x="60" y="108" width="1170" height="510" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Horizontal row dividers -->
+  <line x1="60" y1="238" x2="1230" y2="238" stroke="#1A4A7A" stroke-width="0.8"/>
+  <line x1="60" y1="333" x2="1230" y2="333" stroke="#1A4A7A" stroke-width="0.8"/>
+  <line x1="60" y1="428" x2="1230" y2="428" stroke="#1A4A7A" stroke-width="0.8"/>
+  <line x1="60" y1="523" x2="1230" y2="523" stroke="#1A4A7A" stroke-width="0.8"/>
+
+  <!-- Page number -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">06</text>
+  <!-- HEXAGON logo -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+</svg>

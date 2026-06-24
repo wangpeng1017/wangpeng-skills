@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="leftFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00284C" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00284C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#04D0E6" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#04D0E6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#04D0E6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background: full dark navy (matches template bg2=#00284C) -->
+  <rect width="1280" height="720" fill="#00284C"/>
+
+  <!-- Right panel: Hexagon factory photo background -->
+  <image href="../images/hexagon_bg_photo.jpg" x="560" y="0" width="720" height="720"
+         preserveAspectRatio="xMidYMid slice"/>
+  <!-- Dark overlay to blend photo into navy -->
+  <rect x="560" y="0" width="720" height="720" fill="#00284C" fill-opacity="0.60"/>
+  <!-- Gradient blend from left panel into photo -->
+  <rect x="460" y="0" width="200" height="720" fill="url(#leftFade)"/>
+  <!-- Solid left panel -->
+  <rect x="0" y="0" width="480" height="720" fill="#00284C"/>
+
+  <!-- Top accent line (template style: thin top strip) -->
+  <rect x="0" y="0" width="1280" height="3" fill="#04D0E6"/>
+
+  <!-- HEXAGON logo (white) — top left -->
+  <image href="../images/hexagon_logo_white.png" x="58" y="36" width="210" height="54"
+         preserveAspectRatio="xMinYMid meet"/>
+
+  <!-- Left accent: vertical cyan bar -->
+  <rect x="58" y="128" width="4" height="310" fill="#04D0E6"/>
+
+  <!-- Org label -->
+  <text x="76" y="158" font-family="Arial, sans-serif" font-size="14" fill="#B9B9BD">海克斯康华东方案中心</text>
+  <!-- Accent underline -->
+  <rect x="76" y="168" width="290" height="2" fill="url(#cyanLine)"/>
+
+  <!-- Main title line 1 -->
+  <text x="76" y="240" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#FFFFFF">NPI阶段数字化</text>
+  <!-- Main title line 2 -->
+  <text x="76" y="292" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#FFFFFF">应用解决方案</text>
+
+  <!-- Subtitle -->
+  <text x="76" y="342" font-family="Arial, sans-serif" font-size="20" fill="#04D0E6">接榜挂帅项目申报</text>
+
+  <!-- Divider line -->
+  <rect x="76" y="366" width="340" height="1" fill="#B9B9BD" fill-opacity="0.35"/>
+
+  <!-- Date / info -->
+  <text x="76" y="398" font-family="Arial, sans-serif" font-size="14" fill="#B9B9BD">2026年  ·  工业互联网研究院内部立项</text>
+
+  <!-- Bottom: website -->
+  <text x="76" y="682" font-family="Arial, sans-serif" font-size="12" fill="#B9B9BD" fill-opacity="0.6">hexagonmi.com.cn</text>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="717" width="1280" height="3" fill="#005198"/>
+
+  <!-- HEXAGON logo white — bottom right (slave master position) -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48"
+         preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Page number -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">17</text>
+
+  <!-- Badge + Title -->
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="53" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">04 团队</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">项目团队组织保障</text>
+  <text x="60" y="115" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">海克斯康7人实战团队，熟悉Apple供应链NPI全流程业务，交付风险可控</text>
+
+  <!-- ===== Org Chart (left 760px) ===== -->
+
+  <!-- Level 1: 指导委员会 — 孙江召 + 唐锐 -->
+  <rect x="180" y="130" width="400" height="62" rx="8" fill="#003A6E"/>
+  <rect x="180" y="130" width="400" height="62" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <text x="380" y="152" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#5ACBF0" text-anchor="middle">指导委员会</text>
+  <text x="380" y="173" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">孙江召（华东事业群总裁·组长） &amp; 唐锐（电子行业运营总监·协调）</text>
+
+  <!-- Connector L1 → L2 -->
+  <line x1="380" y1="192" x2="380" y2="218" stroke="#1A4A7A" stroke-width="1.5"/>
+
+  <!-- Level 2: 项目总监 — 谢国杰 + 陶程 (专家支持) -->
+  <rect x="200" y="218" width="360" height="62" rx="8" fill="#003A6E"/>
+  <rect x="200" y="218" width="360" height="62" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <text x="380" y="240" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#5ACBF0" text-anchor="middle">项目专家 · 总体把控</text>
+  <text x="380" y="261" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">谢国杰（慧新全智·智造总经理） &amp; 陶程（研究院副院长）</text>
+
+  <!-- Connector L2 → L3 -->
+  <line x1="380" y1="280" x2="380" y2="306" stroke="#1A4A7A" stroke-width="1.5"/>
+  <line x1="125" y1="306" x2="565" y2="306" stroke="#1A4A7A" stroke-width="1.5"/>
+
+  <!-- Level 3: 5 execution roles -->
+  <!-- 项目经理 -->
+  <line x1="175" y1="306" x2="175" y2="328" stroke="#1A4A7A" stroke-width="1.5"/>
+  <rect x="105" y="328" width="140" height="64" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="105" y="328" width="140" height="64" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="175" y="351" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">项目经理</text>
+  <text x="175" y="370" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#5ACBF0" text-anchor="middle">×1</text>
+  <text x="175" y="386" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB" text-anchor="middle">王鹏</text>
+
+  <!-- 技术经理 -->
+  <line x1="305" y1="306" x2="305" y2="328" stroke="#1A4A7A" stroke-width="1.5"/>
+  <rect x="235" y="328" width="140" height="64" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="235" y="328" width="140" height="64" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="305" y="351" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">技术经理</text>
+  <text x="305" y="370" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#5ACBF0" text-anchor="middle">×1</text>
+  <text x="305" y="386" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB" text-anchor="middle">李晓腾</text>
+
+  <!-- 业务顾问 -->
+  <line x1="435" y1="306" x2="435" y2="328" stroke="#1A4A7A" stroke-width="1.5"/>
+  <rect x="365" y="328" width="140" height="64" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="365" y="328" width="140" height="64" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="435" y="351" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">业务顾问</text>
+  <text x="435" y="370" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#5ACBF0" text-anchor="middle">×1</text>
+  <text x="435" y="386" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB" text-anchor="middle">李绪超</text>
+
+  <!-- 开发工程师 -->
+  <line x1="565" y1="306" x2="565" y2="328" stroke="#1A4A7A" stroke-width="1.5"/>
+  <rect x="495" y="328" width="140" height="64" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="495" y="328" width="140" height="64" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="565" y="351" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">开发工程师</text>
+  <text x="565" y="370" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#5ACBF0" text-anchor="middle">×3</text>
+  <text x="565" y="386" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB" text-anchor="middle">前端×1 / 后端×2</text>
+
+  <!-- AI工程师已移除 -->
+
+  <!-- Hexagon team label -->
+  <rect x="105" y="406" width="655" height="26" rx="4" fill="#5ACBF0" fill-opacity="0.1"/>
+  <text x="432" y="423" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">海克斯康实施团队（共7人）</text>
+
+  <!-- Team notes -->
+  <text x="105" y="454" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">备注：开发工程师3人（前端×1 + 后端×2）</text>
+  <text x="105" y="474" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">业务顾问1人（具备Apple供应链NPI实操经验，磁声项目原班人马）</text>
+
+  <!-- Staffing bar -->
+  <rect x="105" y="494" width="655" height="60" rx="6" fill="#003A6E" fill-opacity="0.5"/>
+  <text x="195" y="520" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="22" font-weight="bold" fill="#E8EDF2" text-anchor="middle">7人</text>
+  <text x="195" y="542" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">团队规模</text>
+  <line x1="265" y1="505" x2="265" y2="547" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="415" y="520" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">13个月</text>
+  <text x="415" y="542" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">预计工期</text>
+  <line x1="520" y1="505" x2="520" y2="547" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="635" y="520" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle">磁声实战</text>
+  <text x="635" y="542" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">原班人马</text>
+
+  <!-- ===== Right side: 3 advantage cards ===== -->
+
+  <!-- Advantage 1 -->
+  <rect x="806" y="130" width="414" height="168" rx="10" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="806" y="130" width="414" height="168" rx="10" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="806" y="130" width="414" height="6" rx="3" fill="#5ACBF0"/>
+  <circle cx="836" cy="176" r="16" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="836" y="181" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="16" fill="#5ACBF0" text-anchor="middle">✓</text>
+  <text x="862" y="166" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">磁声标杆实战团队</text>
+  <text x="862" y="187" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">同一团队完成磁声NPI全流程</text>
+  <line x1="826" y1="202" x2="1200" y2="202" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="826" y="224" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">深度理解Apple供应链NPI特殊</text>
+  <text x="826" y="244" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">需求，避免重新踩坑的风险</text>
+  <text x="826" y="268" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">项目经验直接复用，交付更快</text>
+
+  <!-- Advantage 2 -->
+  <rect x="806" y="316" width="414" height="168" rx="10" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="806" y="316" width="414" height="168" rx="10" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="806" y="316" width="414" height="6" rx="3" fill="#5ACBF0"/>
+  <circle cx="836" cy="362" r="16" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="836" y="367" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="16" fill="#5ACBF0" text-anchor="middle">✓</text>
+  <text x="862" y="352" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">Hexagon ORCA自研AI</text>
+  <text x="862" y="373" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">工业AI自研引擎，不依赖外部</text>
+  <line x1="826" y1="388" x2="1200" y2="388" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="826" y="410" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">ORCA平台专为工业场景优化，</text>
+  <text x="826" y="430" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">图纸OCR+RAG知识库自主可控</text>
+  <text x="826" y="454" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">数据安全合规，知识产权可保护</text>
+
+  <!-- Advantage 3 -->
+  <rect x="806" y="502" width="414" height="152" rx="10" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="806" y="502" width="414" height="152" rx="10" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="806" y="502" width="414" height="6" rx="3" fill="#5ACBF0"/>
+  <circle cx="836" cy="544" r="16" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="836" y="549" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="16" fill="#5ACBF0" text-anchor="middle">✓</text>
+  <text x="862" y="534" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">成熟实施方法论</text>
+  <text x="862" y="555" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">阶段门+里程碑+双周例会</text>
+  <line x1="826" y1="570" x2="1200" y2="570" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="826" y="592" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">标准化项目管理方法，5大风险</text>
+  <text x="826" y="612" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">全部有预案，交付确定性高</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="700" x2="1220" y2="700" stroke="#1A4A7A" stroke-width="1"/>
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="card1Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="card2Grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Header -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">04</text>
+
+  <!-- Chapter tag -->
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="42" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">01 背景</text>
+
+  <!-- Page title -->
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">行业背景与市场机遇</text>
+
+  <!-- ===== Top Big Data Cards ===== -->
+
+  <!-- Card 1: 200+ -->
+  <rect x="60" y="108" width="558" height="175" rx="10" fill="url(#card1Grad)"/>
+  <rect x="60" y="108" width="558" height="175" rx="10" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="60" y="108" width="558" height="6" rx="3" fill="#5ACBF0"/>
+  <!-- Icon placeholder area -->
+  <rect x="88" y="132" width="56" height="56" rx="8" fill="#5ACBF0" fill-opacity="0.15"/>
+  <use data-icon="tabler-outline/building-factory" x="96" y="140" width="40" height="40" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <!-- Number -->
+  <text x="165" y="178" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="64" font-weight="bold" fill="#5ACBF0">200+</text>
+  <!-- Label -->
+  <text x="88" y="224" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="17" fill="#E8EDF2">Apple供应链精密件制造商</text>
+  <text x="88" y="248" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">国内潜在客户池 — NPI数字化解决方案目标市场</text>
+
+  <!-- Card 2: 50%+ -->
+  <rect x="662" y="108" width="558" height="175" rx="10" fill="url(#card2Grad)"/>
+  <rect x="662" y="108" width="558" height="175" rx="10" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="662" y="108" width="558" height="6" rx="3" fill="#5ACBF0"/>
+  <rect x="690" y="132" width="56" height="56" rx="8" fill="#5ACBF0" fill-opacity="0.15"/>
+  <use data-icon="tabler-outline/clock" x="698" y="140" width="40" height="40" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <text x="767" y="178" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="64" font-weight="bold" fill="#5ACBF0">50%+</text>
+  <text x="690" y="224" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="17" fill="#E8EDF2">NPI文档编制耗时占项目周期</text>
+  <text x="690" y="248" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB">Q-Plan/FAI/CRR报告仍依赖人工，效率瓶颈显著</text>
+
+  <!-- ===== Bottom 3 Pain Point Cards ===== -->
+
+  <!-- Card A: 痛点①NPI文档编制人工化 -->
+  <rect x="60" y="304" width="366" height="350" rx="10" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="60" y="304" width="366" height="350" rx="10" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="60" y="304" width="366" height="5" rx="3" fill="#5ACBF0"/>
+  <!-- Icon -->
+  <rect x="90" y="332" width="52" height="52" rx="8" fill="#5ACBF0" fill-opacity="0.15"/>
+  <use data-icon="tabler-outline/rocket" x="98" y="340" width="36" height="36" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <!-- Content -->
+  <text x="158" y="350" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="17" font-weight="bold" fill="#E8EDF2">NPI文档编制人工化</text>
+  <text x="158" y="373" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">行业痛点 #1</text>
+  <!-- Divider -->
+  <line x1="90" y1="396" x2="396" y2="396" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="421" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">全依赖Excel/PPT模板，无</text>
+  <text x="90" y="442" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">数字化工具辅助，版本管理</text>
+  <text x="90" y="463" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">混乱、质量参差不齐</text>
+  <!-- Tag -->
+  <rect x="90" y="486" width="80" height="24" rx="4" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="90" y="486" width="80" height="24" rx="4" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="130" y="502" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">效率低下</text>
+
+  <!-- Card B: 痛点②数据分散 -->
+  <rect x="457" y="304" width="366" height="350" rx="10" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="457" y="304" width="366" height="350" rx="10" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="457" y="304" width="366" height="5" rx="3" fill="#5ACBF0"/>
+  <rect x="487" y="332" width="52" height="52" rx="8" fill="#5ACBF0" fill-opacity="0.15"/>
+  <use data-icon="tabler-outline/device-desktop-analytics" x="495" y="340" width="36" height="36" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <text x="555" y="350" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="17" font-weight="bold" fill="#E8EDF2">数据分散无法追溯</text>
+  <text x="555" y="373" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">行业痛点 #2</text>
+  <line x1="487" y1="396" x2="793" y2="396" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="487" y="421" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">CPK/CRR数据手工汇总于</text>
+  <text x="487" y="442" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">Excel，质量问题追溯难，</text>
+  <text x="487" y="463" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">经验积累无法沉淀复用</text>
+  <rect x="487" y="486" width="80" height="24" rx="4" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="487" y="486" width="80" height="24" rx="4" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="527" y="502" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">数据孤岛</text>
+
+  <!-- Card C: 验证完成 -->
+  <rect x="854" y="304" width="366" height="350" rx="10" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="854" y="304" width="366" height="350" rx="10" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="854" y="304" width="366" height="5" rx="3" fill="#5ACBF0"/>
+  <rect x="884" y="332" width="52" height="52" rx="8" fill="#5ACBF0" fill-opacity="0.15"/>
+  <use data-icon="tabler-outline/award" x="892" y="340" width="36" height="36" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <text x="952" y="350" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="17" font-weight="bold" fill="#E8EDF2">磁声标杆已验证</text>
+  <text x="952" y="373" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0">方案可行性确认 ✓</text>
+  <line x1="884" y1="396" x2="1190" y2="396" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="884" y="421" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">2026年Q1完成全流程方案</text>
+  <text x="884" y="442" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">验证，具备规模复制基础，</text>
+  <text x="884" y="463" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">先发优势明显</text>
+  <rect x="884" y="486" width="100" height="24" rx="4" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="884" y="486" width="100" height="24" rx="4" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="934" y="502" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">已有标杆验证</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="700" x2="1220" y2="700" stroke="#1A4A7A" stroke-width="1"/>
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

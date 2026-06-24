@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdr5c" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdr5c)"/>
+
+  <!-- Badge + Title -->
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="53" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">01 背景</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">NPI阶段交付物全景：23类表单</text>
+
+  <text x="60" y="100" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">每次NPI项目均需输出以下表单，大量依赖手工编制——数字化平台将系统性替代人工劳动</text>
+
+  <!-- Priority legend -->
+  <rect x="920" y="90" width="50" height="16" rx="3" fill="#E53935" fill-opacity="0.8"/>
+  <text x="945" y="102" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">高优先</text>
+  <rect x="980" y="90" width="50" height="16" rx="3" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="1005" y="102" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">中优先</text>
+  <rect x="1040" y="90" width="50" height="16" rx="3" fill="#388E3C" fill-opacity="0.6"/>
+  <text x="1065" y="102" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">低优先</text>
+
+  <!-- 3-column layout, 8 rows each = 24 slots for 23 items -->
+  <!-- Col1: x=60~420, Col2: x=440~800, Col3: x=820~1220 -->
+  <!-- Row height: 68, starting y=118 -->
+
+  <!-- Helper macro: each item is a rect + number circle + title + description -->
+
+  <!-- === Column 1 === -->
+  <!-- Item 1: DR -->
+  <rect x="60" y="118" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="118" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="88" cy="147" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="88" y="152" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">01</text>
+  <text x="110" y="140" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Drawing Review（DR）</text>
+  <text x="110" y="158" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">图纸评审报告 · 中优先</text>
+
+  <!-- Item 2: BOM -->
+  <rect x="60" y="183" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="183" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="88" cy="212" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="88" y="217" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">02</text>
+  <text x="110" y="205" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">BOM（Bill of Material）</text>
+  <text x="110" y="223" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">物料清单 · 中优先</text>
+
+  <!-- Item 3: Process Flowchart -->
+  <rect x="60" y="248" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="248" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="88" cy="277" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="88" y="282" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">03</text>
+  <text x="110" y="270" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Process Flowchart</text>
+  <text x="110" y="288" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">工艺流程图 · 中优先</text>
+
+  <!-- Item 4: Q-Plan (HIGH) -->
+  <rect x="60" y="313" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="313" width="4" height="58" rx="2" fill="#E53935"/>
+  <circle cx="88" cy="342" r="12" fill="#E53935" fill-opacity="0.8"/>
+  <text x="88" y="347" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">04</text>
+  <text x="110" y="335" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Q-Plan</text>
+  <text x="110" y="353" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">质量计划 · 高优先</text>
+
+  <!-- Item 5: CRR/GRR Template -->
+  <rect x="60" y="378" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="378" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="88" cy="407" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="88" y="412" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">05</text>
+  <text x="110" y="400" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">CRR / GRR Template</text>
+  <text x="110" y="418" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">重复性/相关性模板 · 中优先</text>
+
+  <!-- Item 6: CRR/GRR Report -->
+  <rect x="60" y="443" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="443" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="88" cy="472" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="88" y="477" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">06</text>
+  <text x="110" y="465" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">CRR / GRR Report</text>
+  <text x="110" y="483" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">重复性/相关性报告 · 中优先</text>
+
+  <!-- Item 7: Yield Report -->
+  <rect x="60" y="508" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="508" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="88" cy="537" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="88" y="542" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">07</text>
+  <text x="110" y="530" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Yield Report</text>
+  <text x="110" y="548" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">良率报告 · 中优先</text>
+
+  <!-- Item 8: FAI CPK (HIGH) -->
+  <rect x="60" y="573" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="573" width="4" height="58" rx="2" fill="#E53935"/>
+  <circle cx="88" cy="602" r="12" fill="#E53935" fill-opacity="0.8"/>
+  <text x="88" y="607" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">08</text>
+  <text x="110" y="595" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">FAI CPK Template / Report</text>
+  <text x="110" y="613" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">首件检验/过程能力 · 高优先</text>
+
+  <!-- === Column 2 === -->
+  <!-- Item 9: YGA (HIGH) -->
+  <rect x="440" y="118" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="118" width="4" height="58" rx="2" fill="#E53935"/>
+  <circle cx="468" cy="147" r="12" fill="#E53935" fill-opacity="0.8"/>
+  <text x="468" y="152" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">09</text>
+  <text x="490" y="140" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">YGA（Yield Gap Analyze）</text>
+  <text x="490" y="158" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">良率差距分析 · 高优先</text>
+
+  <!-- Item 10: MIL -->
+  <rect x="440" y="183" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="183" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="468" cy="212" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="468" y="217" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">10</text>
+  <text x="490" y="205" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">MIL（Major Issue List）</text>
+  <text x="490" y="223" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">重大问题清单 · 中优先</text>
+
+  <!-- Item 11: Project Updates -->
+  <rect x="440" y="248" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="248" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="468" cy="277" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="468" y="282" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">11</text>
+  <text x="490" y="270" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Project Updates</text>
+  <text x="490" y="288" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">项目进度报告 · 中优先</text>
+
+  <!-- Item 12: Simulation -->
+  <rect x="440" y="313" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="313" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="468" cy="342" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="468" y="347" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">12</text>
+  <text x="490" y="335" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Simulation</text>
+  <text x="490" y="353" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">仿真分析 · 中优先</text>
+
+  <!-- Item 13: 内部图纸 (LOW) -->
+  <rect x="440" y="378" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="378" width="4" height="58" rx="2" fill="#388E3C"/>
+  <circle cx="468" cy="407" r="12" fill="#388E3C" fill-opacity="0.8"/>
+  <text x="468" y="412" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">13</text>
+  <text x="490" y="400" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">内部图纸</text>
+  <text x="490" y="418" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">内部制图 · 低优先</text>
+
+  <!-- Item 14: Packaging/Label -->
+  <rect x="440" y="443" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="443" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="468" cy="472" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="468" y="477" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">14</text>
+  <text x="490" y="465" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Packaging / Label</text>
+  <text x="490" y="483" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">包装标签 · 中优先</text>
+
+  <!-- Item 15: DFM -->
+  <rect x="440" y="508" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="508" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="468" cy="537" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="468" y="542" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">15</text>
+  <text x="490" y="530" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">DFM（单件/组件）</text>
+  <text x="490" y="548" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">可制造性设计 · 中优先</text>
+
+  <!-- Item 16: Station/Line Qual -->
+  <rect x="440" y="573" width="358" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="440" y="573" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="468" cy="602" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="468" y="607" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">16</text>
+  <text x="490" y="595" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Station/Line Qual Plan</text>
+  <text x="490" y="613" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">工位/产线认证计划 · 中优先</text>
+
+  <!-- === Column 3 === -->
+  <!-- Item 17: CDML (LOW) -->
+  <rect x="820" y="118" width="400" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="820" y="118" width="4" height="58" rx="2" fill="#388E3C"/>
+  <circle cx="848" cy="147" r="12" fill="#388E3C" fill-opacity="0.8"/>
+  <text x="848" y="152" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">17</text>
+  <text x="870" y="140" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">CDML（组件数据管理清单）</text>
+  <text x="870" y="158" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">组件数据管理 · 低优先</text>
+
+  <!-- Item 18: 外观检查标准 -->
+  <rect x="820" y="183" width="400" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="820" y="183" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="848" cy="212" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="848" y="217" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">18</text>
+  <text x="870" y="205" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">外观检查标准</text>
+  <text x="870" y="223" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">Cosmetic Criteria · 中优先</text>
+
+  <!-- Item 19: MTD -->
+  <rect x="820" y="248" width="400" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="820" y="248" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="848" cy="277" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="848" y="282" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">19</text>
+  <text x="870" y="270" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">MTD（Measurement Test Doc）</text>
+  <text x="870" y="288" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">测量测试文件 · 中优先</text>
+
+  <!-- Item 20: SIP -->
+  <rect x="820" y="313" width="400" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="820" y="313" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="848" cy="342" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="848" y="347" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">20</text>
+  <text x="870" y="335" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">SIP（检验作业指导书）</text>
+  <text x="870" y="353" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">Inspection Instructions · 中优先</text>
+
+  <!-- Item 21: SOP (LOW) -->
+  <rect x="820" y="378" width="400" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="820" y="378" width="4" height="58" rx="2" fill="#388E3C"/>
+  <circle cx="848" cy="407" r="12" fill="#388E3C" fill-opacity="0.8"/>
+  <text x="848" y="412" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">21</text>
+  <text x="870" y="400" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">SOP（作业指导书）</text>
+  <text x="870" y="418" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">Standard Operating Proc · 低优先</text>
+
+  <!-- Item 22: Reliability -->
+  <rect x="820" y="443" width="400" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="820" y="443" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="848" cy="472" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="848" y="477" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">22</text>
+  <text x="870" y="465" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">Reliability Test Report</text>
+  <text x="870" y="483" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">可靠性测试报告 · 中优先</text>
+
+  <!-- Item 23: OQC -->
+  <rect x="820" y="508" width="400" height="58" rx="5" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="820" y="508" width="4" height="58" rx="2" fill="#F57C00"/>
+  <circle cx="848" cy="537" r="12" fill="#F57C00" fill-opacity="0.8"/>
+  <text x="848" y="542" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFF" text-anchor="middle">23</text>
+  <text x="870" y="530" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E8EDF2">OQC报告（出货检验）</text>
+  <text x="870" y="548" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="10" fill="#9BAABB">出货检验报告 · 中优先</text>
+
+  <!-- Summary count -->
+  <rect x="820" y="580" width="400" height="52" rx="5" fill="#5ACBF0" fill-opacity="0.12"/>
+  <rect x="820" y="580" width="400" height="52" rx="5" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="1020" y="602" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#5ACBF0" text-anchor="middle">共23类 NPI 交付物</text>
+  <text x="1020" y="621" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB" text-anchor="middle">高优先3项 · 中优先17项 · 低优先3项</text>
+
+  <!-- Page number + Logo -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">07</text>
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+</svg>

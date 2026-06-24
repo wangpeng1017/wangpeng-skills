@@ -1,0 +1,18 @@
+[16:38:17] [INFO] confirm_ui: running at http://localhost:5051
+[16:38:17] [INFO] confirm_ui: project: /Users/wangpeng/.claude/skills/ppt-master-plus/projects/jieban_npi_2026_ppt169_20260622
+[16:38:17] [INFO] confirm_ui: idle timeout: 900s (0 = disabled)
+ * Serving Flask app 'server'
+ * Debug mode: off
+[16:38:17] [INFO] confirm_ui: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5051
+[16:38:17] [INFO] confirm_ui: [33mPress CTRL+C to quit[0m
+[16:38:17] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:38:17] "GET / HTTP/1.1" 200 -
+[16:38:17] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:38:17] "GET /static/style.css HTTP/1.1" 200 -
+[16:38:17] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:38:17] "GET /static/app.js HTTP/1.1" 200 -
+[16:38:17] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:38:17] "GET /api/catalogs HTTP/1.1" 200 -
+[16:38:17] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:38:17] "GET /api/recommendations HTTP/1.1" 200 -
+[16:38:17] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:38:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[16:44:44] [INFO] confirm_ui: confirmation written to /Users/wangpeng/.claude/skills/ppt-master-plus/projects/jieban_npi_2026_ppt169_20260622/confirm_ui/result.json
+[16:44:44] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:44:44] "POST /api/confirm HTTP/1.1" 200 -
+[16:44:44] [INFO] confirm_ui: 127.0.0.1 - - [22/Jun/2026 16:44:44] "POST /api/shutdown HTTP/1.1" 200 -
+[16:44:45] [INFO] confirm_ui: shutting down (confirmed)

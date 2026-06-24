@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="3" fill="#5ACBF0"/>
+
+  <!-- 谢谢 -->
+  <text x="640" y="400" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="120" font-weight="bold" fill="#FFFFFF" text-anchor="middle">谢谢</text>
+
+  <!-- Page number (bottom left) -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">23</text>
+
+  <!-- HEXAGON logo (bottom right) -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

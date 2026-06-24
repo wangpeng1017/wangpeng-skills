@@ -1,0 +1,71 @@
+{
+  "lang": "zh",
+  "recommend": {
+    "canvas": "ppt169",
+    "mode": "briefing",
+    "visual_style": "tech-enterprise",
+    "icons": "tabler-outline",
+    "image_usage": "none",
+    "formula_policy": "text-only",
+    "generation_mode": "continuous"
+  },
+  "page_count": { "value": "18-20" },
+  "audience": { "value": "公司评审委员会（高管+技术专家+财务专家），内部接榜挂帅项目答辩" },
+  "color": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "磁声品牌深蓝·橙红",
+        "name_zh": "磁声品牌深蓝·橙红",
+        "name_en": "Magsound Navy-Orange",
+        "note": "延续客户方案模板配色，深蓝底+橙红主色，专业可信赖感强",
+        "note_zh": "延续客户方案模板配色，深蓝底+橙红主色，专业可信赖感强",
+        "note_en": "Matches client template palette — navy base + orange-red primary, strong professional credibility",
+        "palette": {
+          "background": "#00284C",
+          "secondary_bg": "#003A6E",
+          "primary": "#F26B43",
+          "accent": "#FBAE40",
+          "secondary_accent": "#5ACBF0",
+          "body_text": "#E8EDF2"
+        }
+      },
+      {
+        "name": "工业蓝·橙金强调",
+        "name_zh": "工业蓝·橙金强调",
+        "name_en": "Industrial Blue-Gold",
+        "note": "偏亮的深蓝，金黄主色更显档次，适合高管评审场合",
+        "note_zh": "偏亮的深蓝，金黄主色更显档次，适合高管评审场合",
+        "note_en": "Brighter navy with gold primary — more premium feel for executive review",
+        "palette": {
+          "background": "#0D1B3E",
+          "secondary_bg": "#1A2F5A",
+          "primary": "#FBAE40",
+          "accent": "#F26B43",
+          "secondary_accent": "#5ACBF0",
+          "body_text": "#E4EAF2"
+        }
+      }
+    ]
+  },
+  "typography": {
+    "selected": 0,
+    "candidates": [
+      {
+        "name": "微软雅黑现代商务",
+        "name_zh": "微软雅黑现代商务",
+        "name_en": "Microsoft YaHei Modern Business",
+        "note": "CJK/Latin统一微软雅黑，工整清晰，跨平台PPT友好",
+        "note_zh": "CJK/Latin统一微软雅黑，工整清晰，跨平台PPT友好",
+        "note_en": "Unified Microsoft YaHei for CJK+Latin — clean, cross-platform PPT safe",
+        "heading": {
+          "css": "\"Microsoft YaHei\", \"PingFang SC\", Arial, sans-serif"
+        },
+        "body": {
+          "css": "\"Microsoft YaHei\", \"PingFang SC\", Arial, sans-serif"
+        },
+        "body_size": 18
+      }
+    ]
+  }
+}

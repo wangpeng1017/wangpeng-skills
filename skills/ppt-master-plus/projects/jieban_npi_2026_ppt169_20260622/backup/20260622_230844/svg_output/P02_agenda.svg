@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="headerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rowActiveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003A6E" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+
+  <!-- Top header area -->
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#headerBar)"/>
+
+  <!-- Header left: org name -->
+
+  <!-- Page number -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">02</text>
+
+  <!-- Page Title -->
+  <text x="60" y="50" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="28" font-weight="bold" fill="#E8EDF2">目录</text>
+  <text x="155" y="50" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="17" fill="#6B7F94">CONTENTS</text>
+
+  <!-- TOC items -->
+
+  <!-- Item 01 -->
+  <rect x="60" y="132" width="1160" height="95" rx="8" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="132" width="6" height="95" rx="3" fill="#5ACBF0"/>
+  <!-- Number circle -->
+  <circle cx="117" cy="179" r="28" fill="#5ACBF0"/>
+  <text x="117" y="186" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">01</text>
+  <!-- Chapter title -->
+  <text x="168" y="168" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" font-weight="bold" fill="#E8EDF2">背景与行业竞品</text>
+  <text x="168" y="195" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB">行业机遇与竞争格局 — 精密件制造商NPI数字化蓝海市场分析</text>
+  <!-- Right arrow -->
+  <text x="1185" y="185" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle">›</text>
+
+  <!-- Item 02 -->
+  <rect x="60" y="240" width="1160" height="95" rx="8" fill="#003A6E" fill-opacity="0.4"/>
+  <rect x="60" y="240" width="6" height="95" rx="3" fill="#5ACBF0"/>
+  <circle cx="117" cy="287" r="28" fill="#5ACBF0"/>
+  <text x="117" y="294" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00284C" text-anchor="middle">02</text>
+  <text x="168" y="276" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" font-weight="bold" fill="#E8EDF2">技术路线</text>
+  <text x="168" y="303" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB">"1平台+N个AI应用"产品化技术架构与三大关键技术突破</text>
+  <text x="1185" y="293" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle">›</text>
+
+  <!-- Item 03 -->
+  <rect x="60" y="348" width="1160" height="95" rx="8" fill="#003A6E" fill-opacity="0.4"/>
+  <rect x="60" y="348" width="6" height="95" rx="3" fill="#5ACBF0"/>
+  <circle cx="117" cy="395" r="28" fill="#5ACBF0"/>
+  <text x="117" y="402" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00284C" text-anchor="middle">03</text>
+  <text x="168" y="384" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" font-weight="bold" fill="#E8EDF2">考核指标</text>
+  <text x="168" y="411" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB">可量化、可验证的6项验收标准，全部可在系统日志中客观核查</text>
+  <text x="1185" y="401" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle">›</text>
+
+  <!-- Item 04 -->
+  <rect x="60" y="456" width="1160" height="95" rx="8" fill="#003A6E" fill-opacity="0.4"/>
+  <rect x="60" y="456" width="6" height="95" rx="3" fill="#5ACBF0"/>
+  <circle cx="117" cy="503" r="28" fill="#5ACBF0"/>
+  <text x="117" y="510" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">04</text>
+  <text x="168" y="492" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" font-weight="bold" fill="#E8EDF2">实施风险及团队保障</text>
+  <text x="168" y="519" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB">5大风险识别与应对措施，8人实战团队+指导委员会双保险</text>
+  <text x="1185" y="509" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle">›</text>
+
+  <!-- Item 05 -->
+  <rect x="60" y="564" width="1160" height="95" rx="8" fill="#003A6E" fill-opacity="0.4"/>
+  <rect x="60" y="564" width="6" height="95" rx="3" fill="#5ACBF0"/>
+  <circle cx="117" cy="611" r="28" fill="#5ACBF0"/>
+  <text x="117" y="618" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">05</text>
+  <text x="168" y="600" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" font-weight="bold" fill="#E8EDF2">经费预算及经济效益</text>
+  <text x="168" y="627" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB">总预算260万详细科目清单，3年累计收入2550~3900万预测</text>
+  <text x="1185" y="617" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle">›</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="700" x2="1220" y2="700" stroke="#1A4A7A" stroke-width="1"/>
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

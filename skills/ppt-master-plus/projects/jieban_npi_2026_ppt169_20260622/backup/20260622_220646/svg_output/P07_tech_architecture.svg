@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="aiLayerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="platformLayerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#003A6E" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="dataLayerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Header -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">07</text>
+
+  <!-- Chapter tag + Page Title -->
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="42" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">02 技术</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">技术架构：1平台 + N个AI应用</text>
+
+  <!-- Left integration labels (ERP/MES etc.) -->
+  <rect x="60" y="125" width="80" height="510" rx="6" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="60" y="125" width="80" height="510" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <!-- System integrations -->
+  <text x="100" y="215" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle" transform="rotate(-90,100,235)">ERP</text>
+  <text x="100" y="285" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle" transform="rotate(-90,100,305)">MES</text>
+  <text x="100" y="355" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle" transform="rotate(-90,100,375)">QMS</text>
+  <text x="100" y="435" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle" transform="rotate(-90,100,455)">企微/飞书</text>
+  <!-- Integration arrows -->
+  <line x1="140" y1="203" x2="162" y2="203" stroke="#5ACBF0" stroke-width="1.5" stroke-opacity="0.7"/>
+  <polygon points="162,218 172,223 162,228" fill="#5ACBF0" fill-opacity="0.7"/>
+  <line x1="140" y1="275" x2="162" y2="275" stroke="#5ACBF0" stroke-width="1.5" stroke-opacity="0.7"/>
+  <polygon points="162,290 172,295 162,300" fill="#5ACBF0" fill-opacity="0.7"/>
+  <line x1="140" y1="350" x2="162" y2="350" stroke="#5ACBF0" stroke-width="1.5" stroke-opacity="0.7"/>
+  <polygon points="162,365 172,370 162,375" fill="#5ACBF0" fill-opacity="0.7"/>
+  <line x1="140" y1="425" x2="162" y2="425" stroke="#5ACBF0" stroke-width="1.5" stroke-opacity="0.7"/>
+  <polygon points="162,440 172,445 162,450" fill="#5ACBF0" fill-opacity="0.7"/>
+
+  <!-- ===== Layer 1: AI应用层 ===== -->
+  <rect x="160" y="125" width="1060" height="148" rx="8" fill="url(#aiLayerGrad)"/>
+  <rect x="160" y="125" width="1060" height="148" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <!-- Layer label -->
+  <rect x="160" y="125" width="140" height="32" rx="4" fill="#5ACBF0"/>
+  <text x="230" y="146" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AI应用层</text>
+
+  <!-- AI application boxes -->
+  <!-- Box 1 -->
+  <rect x="178" y="168" width="185" height="90" rx="6" fill="#003A6E" fill-opacity="0.7"/>
+  <rect x="178" y="168" width="185" height="90" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <use data-icon="tabler-outline/scan" x="253" y="180" width="28" height="28" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <text x="267" y="224" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">图纸OCR识别</text>
+  <text x="267" y="243" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">智能解析图纸信息</text>
+
+  <!-- Box 2 -->
+  <rect x="375" y="168" width="185" height="90" rx="6" fill="#003A6E" fill-opacity="0.7"/>
+  <rect x="375" y="168" width="185" height="90" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <use data-icon="tabler-outline/file-check" x="450" y="180" width="28" height="28" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <text x="467" y="224" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">Q-Plan自动生成</text>
+  <text x="467" y="243" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">AI辅助质量计划</text>
+
+  <!-- Box 3 -->
+  <rect x="572" y="168" width="185" height="90" rx="6" fill="#003A6E" fill-opacity="0.7"/>
+  <rect x="572" y="168" width="185" height="90" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <use data-icon="tabler-outline/chart-bar" x="647" y="180" width="28" height="28" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <text x="664" y="224" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">FAI/CRR报告</text>
+  <text x="664" y="243" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">自动填写检验报告</text>
+
+  <!-- Box 4 -->
+  <rect x="769" y="168" width="185" height="90" rx="6" fill="#003A6E" fill-opacity="0.7"/>
+  <rect x="769" y="168" width="185" height="90" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <use data-icon="tabler-outline/bulb" x="844" y="180" width="28" height="28" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+  <text x="861" y="224" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle">DFM规则推荐</text>
+  <text x="861" y="243" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">智能工艺风险识别</text>
+
+  <!-- Box 5: more -->
+  <rect x="966" y="168" width="236" height="90" rx="6" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="966" y="168" width="236" height="90" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="1084" y="219" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="28" fill="#5ACBF0" fill-opacity="0.5" text-anchor="middle">···</text>
+  <text x="1084" y="245" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">更多AI应用扩展</text>
+
+  <!-- Arrow down: AI to Platform -->
+  <line x1="640" y1="273" x2="640" y2="293" stroke="#1A4A7A" stroke-width="2"/>
+  <polygon points="634,313 640,323 646,313" fill="#1A4A7A"/>
+
+  <!-- ===== Layer 2: 平台层 ===== -->
+  <rect x="160" y="303" width="1060" height="148" rx="8" fill="url(#platformLayerGrad)"/>
+  <rect x="160" y="303" width="1060" height="148" rx="8" fill="none" stroke="#003A6E" stroke-width="1.5"/>
+  <rect x="160" y="303" width="152" height="32" rx="4" fill="#003A6E"/>
+  <text x="236" y="324" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">NPI研发协同平台</text>
+
+  <!-- Platform modules (5 equal blocks) -->
+  <rect x="178" y="346" width="188" height="88" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="178" y="346" width="188" height="88" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="272" y="380" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">项目管理</text>
+  <text x="272" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">阶段门 / 里程碑</text>
+  <text x="272" y="418" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">任务调度</text>
+
+  <rect x="378" y="346" width="188" height="88" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="378" y="346" width="188" height="88" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="472" y="380" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">图纸评审</text>
+  <text x="472" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">DR审批 / 问题</text>
+  <text x="472" y="418" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">跟踪闭环</text>
+
+  <rect x="578" y="346" width="188" height="88" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="578" y="346" width="188" height="88" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="672" y="380" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">进度看板</text>
+  <text x="672" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">实时可视化</text>
+  <text x="672" y="418" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">预警提醒</text>
+
+  <rect x="778" y="346" width="188" height="88" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="778" y="346" width="188" height="88" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="872" y="380" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">多端协同</text>
+  <text x="872" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">PC+移动端</text>
+  <text x="872" y="418" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">在线评审</text>
+
+  <rect x="978" y="346" width="224" height="88" rx="6" fill="#003A6E" fill-opacity="0.8"/>
+  <rect x="978" y="346" width="224" height="88" rx="6" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="1090" y="380" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">报表中心</text>
+  <text x="1090" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">NPI指标统计</text>
+  <text x="1090" y="418" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">质量数据汇总</text>
+
+  <!-- Arrow down: Platform to Data -->
+  <line x1="640" y1="451" x2="640" y2="471" stroke="#1A4A7A" stroke-width="2"/>
+  <polygon points="634,491 640,501 646,491" fill="#1A4A7A"/>
+
+  <!-- ===== Layer 3: 数据基础层 ===== -->
+  <rect x="160" y="481" width="1060" height="110" rx="8" fill="url(#dataLayerGrad)"/>
+  <rect x="160" y="481" width="1060" height="110" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="160" y="481" width="140" height="32" rx="4" fill="#5ACBF0" fill-opacity="0.3"/>
+  <text x="230" y="502" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">数据基础层</text>
+
+  <!-- Data store items -->
+  <rect x="178" y="522" width="174" height="56" rx="6" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="178" y="522" width="174" height="56" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="265" y="546" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle">图纸知识库</text>
+  <text x="265" y="565" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">结构化图纸档案</text>
+
+  <rect x="364" y="522" width="174" height="56" rx="6" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="364" y="522" width="174" height="56" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="451" y="546" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle">工艺经验库</text>
+  <text x="451" y="565" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">DR历史问题沉淀</text>
+
+  <rect x="550" y="522" width="174" height="56" rx="6" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="550" y="522" width="174" height="56" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="637" y="546" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle">DFM规则库</text>
+  <text x="637" y="565" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">可制造性分析规则</text>
+
+  <rect x="736" y="522" width="174" height="56" rx="6" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="736" y="522" width="174" height="56" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="823" y="546" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle">检验标准库</text>
+  <text x="823" y="565" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">FAI/CRR标准规范</text>
+
+  <rect x="922" y="522" width="280" height="56" rx="6" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="922" y="522" width="280" height="56" rx="6" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="1062" y="546" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle">问题经验知识库</text>
+  <text x="1062" y="565" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">RAG检索 · 智能推荐</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="700" x2="1220" y2="700" stroke="#1A4A7A" stroke-width="1"/>
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

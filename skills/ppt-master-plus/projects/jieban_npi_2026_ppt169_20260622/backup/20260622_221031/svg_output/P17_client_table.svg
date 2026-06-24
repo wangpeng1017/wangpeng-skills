@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Header -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">17</text>
+
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="42" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">05 客户</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">5.3 潜在客户清单（待补充）</text>
+  <text x="60" y="126" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">目标：10家以上Apple供应链精密件制造商，建议答辩前补充具体客户信息</text>
+
+  <!-- Table header row -->
+  <rect x="60" y="139" width="1160" height="42" rx="6" fill="#5ACBF0"/>
+  <!-- Column widths: 序号=60, 客户名称=280, 产品方向=200, 所在地=150, 当前沟通状态=250, 优先级=100, total=1040 -->
+  <!-- Actual widths to fill 1160: 60+310+200+180+300+110=1160 -->
+  <text x="90" y="165" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">序号</text>
+  <line x1="120" y1="139" x2="120" y2="690" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="275" y="165" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">客户名称</text>
+  <line x1="430" y1="139" x2="430" y2="690" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="530" y="165" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">产品方向</text>
+  <line x1="630" y1="139" x2="630" y2="690" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="720" y="165" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">所在地</text>
+  <line x1="810" y1="139" x2="810" y2="690" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="960" y="165" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">当前沟通状态</text>
+  <line x1="1110" y1="139" x2="1110" y2="690" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="1165" y="165" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">优先级</text>
+
+  <!-- 12 empty rows, row height: (690-190)/12=41px -->
+  <!-- rows y: 190, 231, 272, 313, 354, 395, 436, 477, 518, 559, 600, 641 -->
+
+  <!-- Row 1 -->
+  <rect x="60" y="181" width="1160" height="41" fill="#003A6E" fill-opacity="0.4"/>
+  <line x1="60" y1="181" x2="1220" y2="181" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="207" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">01</text>
+  <!-- Row 2 -->
+  <rect x="60" y="222" width="1160" height="41" fill="#003A6E" fill-opacity="0.2"/>
+  <line x1="60" y1="222" x2="1220" y2="222" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="248" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">02</text>
+  <!-- Row 3 -->
+  <rect x="60" y="263" width="1160" height="41" fill="#003A6E" fill-opacity="0.4"/>
+  <line x1="60" y1="263" x2="1220" y2="263" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="289" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">03</text>
+  <!-- Row 4 -->
+  <rect x="60" y="304" width="1160" height="41" fill="#003A6E" fill-opacity="0.2"/>
+  <line x1="60" y1="304" x2="1220" y2="304" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="330" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">04</text>
+  <!-- Row 5 -->
+  <rect x="60" y="345" width="1160" height="41" fill="#003A6E" fill-opacity="0.4"/>
+  <line x1="60" y1="345" x2="1220" y2="345" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="371" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">05</text>
+  <!-- Row 6 -->
+  <rect x="60" y="386" width="1160" height="41" fill="#003A6E" fill-opacity="0.2"/>
+  <line x1="60" y1="386" x2="1220" y2="386" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="412" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">06</text>
+  <!-- Row 7 -->
+  <rect x="60" y="427" width="1160" height="41" fill="#003A6E" fill-opacity="0.4"/>
+  <line x1="60" y1="427" x2="1220" y2="427" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="453" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">07</text>
+  <!-- Row 8 -->
+  <rect x="60" y="468" width="1160" height="41" fill="#003A6E" fill-opacity="0.2"/>
+  <line x1="60" y1="468" x2="1220" y2="468" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="494" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">08</text>
+  <!-- Row 9 -->
+  <rect x="60" y="509" width="1160" height="41" fill="#003A6E" fill-opacity="0.4"/>
+  <line x1="60" y1="509" x2="1220" y2="509" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="535" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">09</text>
+  <!-- Row 10 -->
+  <rect x="60" y="550" width="1160" height="41" fill="#003A6E" fill-opacity="0.2"/>
+  <line x1="60" y1="550" x2="1220" y2="550" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="576" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">10</text>
+  <!-- Row 11 -->
+  <rect x="60" y="591" width="1160" height="41" fill="#003A6E" fill-opacity="0.4"/>
+  <line x1="60" y1="591" x2="1220" y2="591" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="617" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">11</text>
+  <!-- Row 12 -->
+  <rect x="60" y="632" width="1160" height="41" fill="#003A6E" fill-opacity="0.2"/>
+  <line x1="60" y1="632" x2="1220" y2="632" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="90" y="667" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#6B7F94" text-anchor="middle">12</text>
+
+  <!-- Bottom border -->
+  <line x1="60" y1="682" x2="1220" y2="682" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Outer table border -->
+  <rect x="60" y="139" width="1160" height="534" fill="none" stroke="#1A4A7A" stroke-width="1.5" rx="4"/>
+
+  <!-- Column dividers (full height) -->
+  <line x1="120" y1="181" x2="120" y2="682" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="430" y1="181" x2="430" y2="682" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="630" y1="181" x2="630" y2="682" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="810" y1="181" x2="810" y2="682" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="1110" y1="181" x2="1110" y2="682" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Footer note -->
+  <text x="60" y="705" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#6B7F94">* 请在答辩前补充具体客户信息，优先级建议参考：A=明确意向 / B=已接触 / C=待开发</text>
+  <text x="1220" y="705" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#6B7F94" text-anchor="end">17 / 18</text>
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

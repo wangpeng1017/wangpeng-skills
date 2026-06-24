@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- chart-plot-area: donut cx=330, cy=415, outer-radius=175, inner-radius=95 -->
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Header -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">15</text>
+
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="42" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">05 预算</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">5.1 经费预算明细（按科目）</text>
+
+  <!-- ===== DONUT CHART (left half: cx=330, cy=415) ===== -->
+
+  <!-- Segment 1: 人员费 150万 57.7% #5ACBF0 (0° to 207.7°) -->
+  <path d="M 330 240 A 175 175 0 1 1 248.7 569.9 L 285.8 499.1 A 95 95 0 1 0 330 320 Z" fill="#5ACBF0"/>
+
+  <!-- Segment 2: 服务器算力费 25万 9.6% #5ACBF0 (207.7° to 242.3°) -->
+  <path d="M 248.7 569.9 A 175 175 0 0 1 175 496.2 L 245.9 459.1 A 95 95 0 0 0 285.8 499.1 Z" fill="#5ACBF0"/>
+
+  <!-- Segment 3: 大模型API费 20万 7.7% #5ACBF0 (242.3° to 270°) -->
+  <path d="M 175 496.2 A 175 175 0 0 1 155 415 L 235 415 A 95 95 0 0 0 245.9 459.1 Z" fill="#5ACBF0"/>
+
+  <!-- Segment 4: 不可预见费 28万 10.8% #003A6E (270° to 308.8°) -->
+  <path d="M 155 415 A 175 175 0 0 1 194.1 304.9 L 256.2 355.2 A 95 95 0 0 0 235 415 Z" fill="#003A6E"/>
+
+  <!-- Segment 5: 软件工具费 10万 3.8% #5ACBF0 (308.8° to 322.6°) -->
+  <path d="M 194.1 304.9 A 175 175 0 0 1 223.5 276.1 L 272.2 339.6 A 95 95 0 0 0 256.2 355.2 Z" fill="#5ACBF0"/>
+
+  <!-- Segment 6: 技术培训费 12万 4.6% #5ACBF0 (322.6° to 339.2°) -->
+  <path d="M 223.5 276.1 A 175 175 0 0 1 267.9 251.4 L 296.3 326.2 A 95 95 0 0 0 272.2 339.6 Z" fill="#5ACBF0"/>
+
+  <!-- Segment 7: 差旅外勤费 15万 5.8% #5ACBF0 (339.2° to 360°) -->
+  <path d="M 267.9 251.4 A 175 175 0 0 1 330 240 L 330 320 A 95 95 0 0 0 296.3 326.2 Z" fill="#5ACBF0"/>
+
+  <!-- Donut center fill (white/dark) -->
+  <circle cx="330" cy="406" r="90" fill="#00284C"/>
+  <circle cx="330" cy="406" r="90" fill="none" stroke="#003A6E" stroke-width="2"/>
+
+  <!-- Center text -->
+  <text x="330" y="393" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">总预算</text>
+  <text x="330" y="423" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="32" font-weight="bold" fill="#5ACBF0" text-anchor="middle">260万</text>
+  <text x="330" y="443" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">人民币</text>
+
+  <!-- Segment gap rings (slight separation) -->
+  <!-- Just a thin white separator circle at outer edge -->
+  <circle cx="330" cy="406" r="175" fill="none" stroke="#00284C" stroke-width="1.5"/>
+
+  <!-- Chart title -->
+  <text x="330" y="131" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB" text-anchor="middle">经费预算结构</text>
+  <text x="330" y="153" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">总计260万 · 7个科目</text>
+
+  <!-- ===== RIGHT: Legend Table ===== -->
+
+  <!-- Column header -->
+  <rect x="640" y="116" width="580" height="34" rx="4" fill="#003A6E"/>
+  <text x="670" y="138" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" font-weight="bold">费用科目</text>
+  <text x="890" y="138" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" font-weight="bold" text-anchor="middle">金额（万元）</text>
+  <text x="1060" y="138" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" font-weight="bold" text-anchor="middle">占比</text>
+  <text x="1175" y="138" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" font-weight="bold" text-anchor="middle">比例条</text>
+
+  <!-- Row height: (720-159-70)/7 = ~71px, but let me use 74px -->
+  <!-- Row 1: 人员费 -->
+  <rect x="640" y="150" width="580" height="72" fill="#003A6E" fill-opacity="0.5"/>
+  <line x1="640" y1="150" x2="1220" y2="150" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="655" y="168" width="14" height="34" rx="3" fill="#5ACBF0"/>
+  <text x="682" y="183" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">人员费</text>
+  <text x="682" y="203" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">项目经理、开发、业务顾问、AI工程师</text>
+  <text x="890" y="191" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#5ACBF0" text-anchor="middle">150</text>
+  <text x="1060" y="191" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#5ACBF0" text-anchor="middle">57.7%</text>
+  <rect x="1100" y="176" width="114" height="18" rx="3" fill="#003A6E"/>
+  <rect x="1100" y="176" width="66" height="18" rx="3" fill="#5ACBF0"/>
+
+  <!-- Row 2: 不可预见费 (highest after personnel) -->
+  <rect x="640" y="222" width="580" height="72" fill="#003A6E" fill-opacity="0.3"/>
+  <line x1="640" y1="222" x2="1220" y2="222" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="655" y="240" width="14" height="34" rx="3" fill="#003A6E"/>
+  <rect x="655" y="240" width="14" height="34" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="682" y="255" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">不可预见费</text>
+  <text x="682" y="275" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">应对需求变更与技术风险的备用资金</text>
+  <text x="890" y="263" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E8EDF2" text-anchor="middle">28</text>
+  <text x="1060" y="263" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB" text-anchor="middle">10.8%</text>
+  <rect x="1100" y="248" width="114" height="18" rx="3" fill="#003A6E"/>
+  <rect x="1100" y="248" width="12" height="18" rx="3" fill="#003A6E"/>
+
+  <!-- Row 3: 服务器算力费 -->
+  <rect x="640" y="294" width="580" height="72" fill="#003A6E" fill-opacity="0.5"/>
+  <line x1="640" y1="294" x2="1220" y2="294" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="655" y="312" width="14" height="34" rx="3" fill="#5ACBF0"/>
+  <text x="682" y="327" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">服务器算力费</text>
+  <text x="682" y="347" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">GPU算力租赁，AI模型训练与推理</text>
+  <text x="890" y="335" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#5ACBF0" text-anchor="middle">25</text>
+  <text x="1060" y="335" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB" text-anchor="middle">9.6%</text>
+  <rect x="1100" y="320" width="114" height="18" rx="3" fill="#003A6E"/>
+  <rect x="1100" y="320" width="11" height="18" rx="3" fill="#5ACBF0"/>
+
+  <!-- Row 4: 大模型API费 -->
+  <rect x="640" y="366" width="580" height="72" fill="#003A6E" fill-opacity="0.3"/>
+  <line x1="640" y1="366" x2="1220" y2="366" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="655" y="384" width="14" height="34" rx="3" fill="#5ACBF0"/>
+  <text x="682" y="399" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">大模型API费</text>
+  <text x="682" y="419" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">通义/ChatGPT/Claude等大模型调用费</text>
+  <text x="890" y="407" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#5ACBF0" text-anchor="middle">20</text>
+  <text x="1060" y="407" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB" text-anchor="middle">7.7%</text>
+  <rect x="1100" y="392" width="114" height="18" rx="3" fill="#003A6E"/>
+  <rect x="1100" y="392" width="9" height="18" rx="3" fill="#5ACBF0"/>
+
+  <!-- Row 5: 差旅外勤费 -->
+  <rect x="640" y="438" width="580" height="72" fill="#003A6E" fill-opacity="0.5"/>
+  <line x1="640" y1="438" x2="1220" y2="438" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="655" y="456" width="14" height="34" rx="3" fill="#5ACBF0"/>
+  <text x="682" y="471" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">差旅外勤费</text>
+  <text x="682" y="491" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">项目人员出差至客户现场调研、实施</text>
+  <text x="890" y="479" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#5ACBF0" text-anchor="middle">15</text>
+  <text x="1060" y="479" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB" text-anchor="middle">5.8%</text>
+  <rect x="1100" y="464" width="114" height="18" rx="3" fill="#003A6E"/>
+  <rect x="1100" y="464" width="7" height="18" rx="3" fill="#5ACBF0"/>
+
+  <!-- Row 6: 技术培训费 -->
+  <rect x="640" y="510" width="580" height="72" fill="#003A6E" fill-opacity="0.3"/>
+  <line x1="640" y1="510" x2="1220" y2="510" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="655" y="528" width="14" height="34" rx="3" fill="#5ACBF0"/>
+  <text x="682" y="543" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">技术培训费</text>
+  <text x="682" y="563" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">用户操作培训、管理员系统培训</text>
+  <text x="890" y="551" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#5ACBF0" text-anchor="middle">12</text>
+  <text x="1060" y="551" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB" text-anchor="middle">4.6%</text>
+  <rect x="1100" y="536" width="114" height="18" rx="3" fill="#003A6E"/>
+  <rect x="1100" y="536" width="5" height="18" rx="3" fill="#5ACBF0"/>
+
+  <!-- Row 7: 软件工具费 -->
+  <rect x="640" y="582" width="580" height="72" fill="#003A6E" fill-opacity="0.5"/>
+  <line x1="640" y1="582" x2="1220" y2="582" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="655" y="600" width="14" height="34" rx="3" fill="#5ACBF0"/>
+  <text x="682" y="615" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">软件工具费</text>
+  <text x="682" y="635" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">开发工具、测试工具、协作平台等授权</text>
+  <text x="890" y="623" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#5ACBF0" text-anchor="middle">10</text>
+  <text x="1060" y="623" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB" text-anchor="middle">3.8%</text>
+  <rect x="1100" y="608" width="114" height="18" rx="3" fill="#003A6E"/>
+  <rect x="1100" y="608" width="4" height="18" rx="3" fill="#5ACBF0"/>
+
+  <!-- Total row -->
+  <rect x="640" y="663" width="580" height="38" rx="4" fill="#5ACBF0" fill-opacity="0.15"/>
+  <rect x="640" y="663" width="580" height="38" rx="4" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <text x="682" y="686" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#5ACBF0">合计</text>
+  <text x="890" y="686" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#5ACBF0" text-anchor="middle">260</text>
+  <text x="1060" y="686" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#5ACBF0" text-anchor="middle">100%</text>
+
+  <!-- Footer -->
+  <text x="330" y="715" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#6B7F94" text-anchor="middle">15 / 18</text>
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- chart-plot-area: x=60, y=155, w=1160, h=520 -->
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ourColGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Header -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">05</text>
+
+  <!-- Chapter tag + Page Title -->
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="42" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">01 背景</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">竞品对比分析</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="126" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">现有竞品均无法兼顾NPI专项深度与AI智能辅助，本方案具有差异化竞争优势</text>
+
+  <!-- Table: 5 rows × 6 cols (feature + 5 products) -->
+  <!-- Column widths: 240(feature) + 4×168(competitors) + 192(our solution) = 240+672+192 = 1104 → offset 60 -->
+  <!-- Actual: col0=60-300(240), col1=300-468(168), col2=468-636(168), col3=636-804(168), col4=804-972(168), col5=972-1220(248) -->
+
+  <!-- "本方案" column highlight background -->
+  <rect x="972" y="146" width="248" height="530" fill="url(#ourColGrad)"/>
+  <rect x="972" y="146" width="248" height="530" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+
+  <!-- Header row -->
+  <rect x="60" y="146" width="1160" height="60" rx="0" fill="#003A6E"/>
+  <rect x="60" y="146" width="1160" height="60" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Header col dividers -->
+  <line x1="300" y1="146" x2="300" y2="685" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="468" y1="146" x2="468" y2="685" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="636" y1="146" x2="636" y2="685" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="804" y1="146" x2="804" y2="685" stroke="#1A4A7A" stroke-width="1"/>
+  <line x1="972" y1="146" x2="972" y2="685" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Header text -->
+  <text x="180" y="183" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB" text-anchor="middle" font-weight="bold">对比维度</text>
+  <text x="384" y="177" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle" font-weight="bold">SAP PLM</text>
+  <text x="384" y="195" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB" text-anchor="middle">海外重型系统</text>
+  <text x="552" y="177" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle" font-weight="bold">PTC Windchill</text>
+  <text x="552" y="195" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB" text-anchor="middle">工程PLM平台</text>
+  <text x="720" y="177" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle" font-weight="bold">鼎捷MES/QMS</text>
+  <text x="720" y="195" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB" text-anchor="middle">国产MES制造</text>
+  <text x="888" y="177" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#E8EDF2" text-anchor="middle" font-weight="bold">明道云</text>
+  <text x="888" y="195" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB" text-anchor="middle">低代码平台</text>
+  <!-- Our solution header -->
+  <rect x="972" y="146" width="248" height="60" fill="#5ACBF0" fill-opacity="0.25"/>
+  <text x="1096" y="177" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#5ACBF0" text-anchor="middle" font-weight="bold">本方案</text>
+  <text x="1096" y="195" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#5ACBF0" text-anchor="middle">Hexagon NPI</text>
+
+  <!-- Row 1: NPI专项流程 -->
+  <rect x="60" y="206" width="1160" height="84" fill="#003A6E" fill-opacity="0.3"/>
+  <line x1="60" y1="206" x2="1220" y2="206" stroke="#1A4A7A" stroke-width="1"/>
+  <!-- Feature label -->
+  <rect x="72" y="219" width="8" height="8" rx="2" fill="#5ACBF0"/>
+  <text x="92" y="237" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">NPI专项流程</text>
+  <text x="92" y="258" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">覆盖23类NPI</text>
+  <text x="92" y="275" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">表单与流程</text>
+  <!-- SAP PLM: ✗ -->
+  <circle cx="384" cy="248" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="384" y="254" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <!-- PTC: ✓ -->
+  <circle cx="552" cy="248" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="552" y="254" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✓</text>
+  <!-- 鼎捷: ✗ -->
+  <circle cx="720" cy="248" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="720" y="254" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <!-- 明道云: ✗ -->
+  <circle cx="888" cy="248" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="888" y="254" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <!-- Our: ✓ -->
+  <circle cx="1096" cy="248" r="18" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="1096" y="254" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle" font-weight="bold">✓</text>
+
+  <!-- Row 2: AI文档辅助 -->
+  <rect x="60" y="290" width="1160" height="84" fill="#003A6E" fill-opacity="0.15"/>
+  <line x1="60" y1="290" x2="1220" y2="290" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="72" y="303" width="8" height="8" rx="2" fill="#5ACBF0"/>
+  <text x="92" y="321" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">AI文档辅助</text>
+  <text x="92" y="342" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">AI自动生成</text>
+  <text x="92" y="359" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">NPI报告内容</text>
+  <circle cx="384" cy="332" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="384" y="338" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="552" cy="332" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="552" y="338" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="720" cy="332" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="720" y="338" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="888" cy="332" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="888" y="338" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="1096" cy="332" r="18" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="1096" y="338" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle" font-weight="bold">✓</text>
+
+  <!-- Row 3: 实施周期 -->
+  <rect x="60" y="374" width="1160" height="84" fill="#003A6E" fill-opacity="0.3"/>
+  <line x1="60" y1="374" x2="1220" y2="374" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="72" y="387" width="8" height="8" rx="2" fill="#5ACBF0"/>
+  <text x="92" y="405" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">实施周期</text>
+  <text x="92" y="426" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">从立项到上线</text>
+  <text x="92" y="443" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">投产的时长</text>
+  <text x="384" y="416" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB" text-anchor="middle">18~24月</text>
+  <text x="552" y="416" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB" text-anchor="middle">12~18月</text>
+  <text x="720" y="416" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB" text-anchor="middle">6~12月</text>
+  <text x="888" y="416" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#9BAABB" text-anchor="middle">3~6月</text>
+  <rect x="1040" y="406" width="112" height="28" rx="6" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="1096" y="425" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#5ACBF0" text-anchor="middle" font-weight="bold">13月</text>
+
+  <!-- Row 4: 总成本 -->
+  <rect x="60" y="458" width="1160" height="84" fill="#003A6E" fill-opacity="0.15"/>
+  <line x1="60" y1="458" x2="1220" y2="458" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="72" y="471" width="8" height="8" rx="2" fill="#5ACBF0"/>
+  <text x="92" y="489" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">总成本</text>
+  <text x="92" y="510" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">客户总投入</text>
+  <text x="92" y="527" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">估算范围</text>
+  <text x="384" y="500" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">500万+</text>
+  <text x="552" y="500" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">400万+</text>
+  <text x="720" y="500" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">100~200万</text>
+  <text x="888" y="500" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">50~100万</text>
+  <rect x="1032" y="490" width="128" height="28" rx="6" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="1096" y="509" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle" font-weight="bold">150~250万</text>
+
+  <!-- Row 5: Apple供应链适配 -->
+  <rect x="60" y="542" width="1160" height="84" fill="#003A6E" fill-opacity="0.3"/>
+  <line x1="60" y1="542" x2="1220" y2="542" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="72" y="555" width="8" height="8" rx="2" fill="#5ACBF0"/>
+  <text x="92" y="573" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2">Apple供应链适配</text>
+  <text x="92" y="594" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">针对苹果供应链</text>
+  <text x="92" y="611" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">特殊需求深度定制</text>
+  <circle cx="384" cy="584" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="384" y="590" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="552" cy="584" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="552" y="590" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="720" cy="584" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="720" y="590" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="888" cy="584" r="16" fill="#5ACBF0" fill-opacity="0.15"/>
+  <text x="888" y="590" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#5ACBF0" text-anchor="middle">✗</text>
+  <circle cx="1096" cy="584" r="18" fill="#5ACBF0" fill-opacity="0.2"/>
+  <text x="1096" y="590" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="22" fill="#5ACBF0" text-anchor="middle" font-weight="bold">✓</text>
+
+  <!-- Bottom border -->
+  <line x1="60" y1="626" x2="1220" y2="626" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Key insight tag -->
+  <rect x="60" y="639" width="1160" height="40" rx="6" fill="#5ACBF0" fill-opacity="0.1"/>
+  <rect x="60" y="639" width="4" height="40" fill="#5ACBF0"/>
+  <text x="78" y="660" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" font-weight="bold">核心差异化：</text>
+  <text x="165" y="660" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#E8EDF2">唯一同时具备"NPI专项流程 + AI文档辅助 + Apple供应链适配"的解决方案，</text>
+  <text x="78" y="680" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">以磁声标杆验证为基础，150~250万中端定价兼顾可行性与商业价值</text>
+
+  <!-- Footer -->
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

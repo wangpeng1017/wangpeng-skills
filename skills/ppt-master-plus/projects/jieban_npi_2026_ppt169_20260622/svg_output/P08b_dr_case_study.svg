@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdr8b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="stepGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#005198" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdr8b)"/>
+
+  <!-- Badge + Title -->
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="53" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">02 技术</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">磁声标杆案例：图纸评审（DR）数字化落地</text>
+
+  <!-- Case tag -->
+  <rect x="60" y="84" width="130" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.15"/>
+  <rect x="60" y="84" width="130" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="0.8"/>
+  <text x="125" y="99" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#5ACBF0" text-anchor="middle">AI辅助 · 场景01</text>
+  <text x="210" y="99" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">实现程度预估 80-90%  ·  效率提升 30-40%</text>
+
+  <!-- ===== Left: 3-step flow (x=60~720) ===== -->
+  <text x="390" y="135" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">实现逻辑（三步闭环）</text>
+
+  <!-- Step 1 -->
+  <rect x="60" y="148" width="660" height="120" rx="8" fill="url(#stepGrad)"/>
+  <rect x="60" y="148" width="660" height="120" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.6"/>
+  <circle cx="108" cy="208" r="22" fill="#5ACBF0"/>
+  <text x="108" y="213" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00284C" text-anchor="middle">1</text>
+  <text x="148" y="178" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0">Step 1 · PM创建项目 &amp; 分配DR任务</text>
+  <text x="148" y="200" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 在NPI协同平台创建项目，录入产品信息、图纸版本等基础数据</text>
+  <text x="148" y="220" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 上传2D/3D图纸，向工程 / 品质人员派发图纸评审任务</text>
+  <text x="148" y="240" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 其他NPI任务（MTD / Q-Plan等）以相同方式创建和派发</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="386,274 394,285 378,285" fill="#5ACBF0"/>
+  <line x1="386" y1="268" x2="386" y2="285" stroke="#5ACBF0" stroke-width="2"/>
+
+  <!-- Step 2 -->
+  <rect x="60" y="292" width="660" height="130" rx="8" fill="url(#stepGrad)"/>
+  <rect x="60" y="292" width="660" height="130" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.6"/>
+  <circle cx="108" cy="357" r="22" fill="#5ACBF0"/>
+  <text x="108" y="362" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00284C" text-anchor="middle">2</text>
+  <text x="148" y="322" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0">Step 2 · 工程师 AI辅助完成评审</text>
+  <text x="148" y="344" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 收到待办任务，打开平台提交评审</text>
+  <text x="148" y="364" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· AI自动OCR识别图纸尺寸，与零部件标准库对比，输出问题点</text>
+  <text x="148" y="384" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 系统从历史DR经验库检索类似问题，推荐最佳解决方案</text>
+  <text x="148" y="404" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 工程师确认 / 补充后提交</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="386,428 394,439 378,439" fill="#5ACBF0"/>
+  <line x1="386" y1="422" x2="386" y2="439" stroke="#5ACBF0" stroke-width="2"/>
+
+  <!-- Step 3 -->
+  <rect x="60" y="446" width="660" height="110" rx="8" fill="url(#stepGrad)"/>
+  <rect x="60" y="446" width="660" height="110" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.6"/>
+  <circle cx="108" cy="501" r="22" fill="#5ACBF0"/>
+  <text x="108" y="506" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00284C" text-anchor="middle">3</text>
+  <text x="148" y="476" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0">Step 3 · PM确认 &amp; 一键下载DR报告</text>
+  <text x="148" y="498" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· PM对工程师提交意见进行审核确认</text>
+  <text x="148" y="518" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 系统自动生成满足Apple格式要求的DR报告（PPT格式）</text>
+  <text x="148" y="538" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#B9C8D8">· 支持一键下载，无需手工编辑</text>
+
+  <!-- Implementation path note -->
+  <rect x="60" y="570" width="660" height="48" rx="6" fill="#5ACBF0" fill-opacity="0.08"/>
+  <rect x="60" y="570" width="660" height="48" rx="6" fill="none" stroke="#5ACBF0" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="390" y="591" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB" text-anchor="middle">实现路径：NPI协同平台 + OCR图纸识别 + DR经验库 + 零部件标准库</text>
+  <text x="390" y="609" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#5ACBF0" text-anchor="middle">磁声已于2026年Q1完成全流程方案验证，先发优势明显</text>
+
+  <!-- ===== Right: Business benefits (x=750~1230) ===== -->
+  <text x="990" y="135" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#5ACBF0" text-anchor="middle">业务收益</text>
+
+  <!-- Benefit 1: Efficiency -->
+  <rect x="750" y="148" width="480" height="100" rx="8" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="750" y="148" width="6" height="100" rx="3" fill="#5ACBF0"/>
+  <text x="775" y="178" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="32" font-weight="bold" fill="#5ACBF0">30~40%</text>
+  <text x="775" y="202" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8EDF2">效率提升</text>
+  <text x="775" y="222" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB">DR报告编制周期缩短，减少重复劳动</text>
+
+  <!-- Benefit 2: Quality -->
+  <rect x="750" y="262" width="480" height="100" rx="8" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="750" y="262" width="6" height="100" rx="3" fill="#5ACBF0"/>
+  <text x="775" y="292" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="32" font-weight="bold" fill="#5ACBF0">100%</text>
+  <text x="775" y="316" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8EDF2">问题覆盖率</text>
+  <text x="775" y="336" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB">一次性识别全部图纸问题，零遗漏</text>
+
+  <!-- Benefit 3: Knowledge -->
+  <rect x="750" y="376" width="480" height="100" rx="8" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="750" y="376" width="6" height="100" rx="3" fill="#5ACBF0"/>
+  <text x="775" y="406" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="32" font-weight="bold" fill="#5ACBF0">持续沉淀</text>
+  <text x="775" y="430" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8EDF2">知识资产化</text>
+  <text x="775" y="450" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB">DR经验库 + 零部件标准库 持续积累</text>
+
+  <!-- Benefit 4: Compliance -->
+  <rect x="750" y="490" width="480" height="100" rx="8" fill="#003A6E" fill-opacity="0.5"/>
+  <rect x="750" y="490" width="6" height="100" rx="3" fill="#5ACBF0"/>
+  <text x="775" y="520" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="32" font-weight="bold" fill="#5ACBF0">全程留痕</text>
+  <text x="775" y="544" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8EDF2">NPI活动在线监管</text>
+  <text x="775" y="564" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#9BAABB">任务透明化 · 事中实时监控 · 事后全程流痕</text>
+
+  <!-- Page number + Logo -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">11</text>
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+</svg>

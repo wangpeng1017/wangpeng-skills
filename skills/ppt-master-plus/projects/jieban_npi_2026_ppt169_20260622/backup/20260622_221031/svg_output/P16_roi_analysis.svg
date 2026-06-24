@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- chart-plot-area: x=120, y=210, w=1100, h=280; y_bottom=490 -->
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="barLow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="barHigh" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Header -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">16</text>
+
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="27" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="42" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">05 效益</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">5.2 经济效益分析</text>
+
+  <!-- Legend -->
+  <rect x="920" y="111" width="16" height="16" rx="3" fill="url(#barLow)"/>
+  <text x="942" y="124" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">低预期</text>
+  <rect x="1020" y="111" width="16" height="16" rx="3" fill="url(#barHigh)"/>
+  <text x="1042" y="124" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">高预期</text>
+  <text x="1140" y="124" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94">万元/年</text>
+
+  <!-- ===== BAR CHART ===== -->
+
+  <!-- Chart background -->
+  <rect x="120" y="139" width="1100" height="345" rx="4" fill="#003A6E" fill-opacity="0.2"/>
+
+  <!-- Y-axis grid lines -->
+  <!-- 2500万: y=210 -->
+  <line x1="120" y1="201" x2="1220" y2="201" stroke="#1A4A7A" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="112" y="205" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#6B7F94" text-anchor="end">2500</text>
+
+  <!-- 2000万: y=266 -->
+  <line x1="120" y1="257" x2="1220" y2="257" stroke="#1A4A7A" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="112" y="261" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#6B7F94" text-anchor="end">2000</text>
+
+  <!-- 1500万: y=322 -->
+  <line x1="120" y1="313" x2="1220" y2="313" stroke="#1A4A7A" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="112" y="317" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#6B7F94" text-anchor="end">1500</text>
+
+  <!-- 1000万: y=378 -->
+  <line x1="120" y1="369" x2="1220" y2="369" stroke="#1A4A7A" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="112" y="373" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#6B7F94" text-anchor="end">1000</text>
+
+  <!-- 500万: y=434 -->
+  <line x1="120" y1="425" x2="1220" y2="425" stroke="#1A4A7A" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="112" y="429" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#6B7F94" text-anchor="end">500</text>
+
+  <!-- 0: y=490 -->
+  <line x1="120" y1="481" x2="1220" y2="481" stroke="#1A4A7A" stroke-width="1.5"/>
+  <text x="112" y="485" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#6B7F94" text-anchor="end">0</text>
+
+  <!-- Y axis label -->
+  <text x="60" y="331" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#6B7F94" text-anchor="middle" transform="rotate(-90,60,340)">收入（万元）</text>
+
+  <!-- ===== GROUP 1: 2026年 (bars at ~284 center) ===== -->
+  <!-- bar1_x=179, bar2_x=289, bar_width=90 -->
+
+  <!-- Low bar (300万): y=490-34=456, h=34 -->
+  <rect x="179" y="447" width="90" height="34" rx="4" fill="url(#barLow)"/>
+  <!-- High bar (450万): y=490-50=440, h=50 -->
+  <rect x="279" y="431" width="90" height="50" rx="4" fill="url(#barHigh)"/>
+
+  <!-- Value labels -->
+  <text x="224" y="443" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">300</text>
+  <text x="324" y="427" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">450</text>
+
+  <!-- X label -->
+  <text x="274" y="501" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">2026年</text>
+  <text x="274" y="519" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">首年验证</text>
+
+  <!-- ===== GROUP 2: 2027年 ===== -->
+  <!-- bar1_x=546, bar2_x=656, width=90 -->
+
+  <!-- Low bar (750万): y=490-84=406, h=84 -->
+  <rect x="546" y="397" width="90" height="84" rx="4" fill="url(#barLow)"/>
+  <!-- High bar (1200万): y=490-134=356, h=134 -->
+  <rect x="646" y="347" width="90" height="134" rx="4" fill="url(#barHigh)"/>
+
+  <text x="591" y="393" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">750</text>
+  <text x="691" y="343" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">1200</text>
+
+  <text x="641" y="501" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">2027年</text>
+  <text x="641" y="519" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">规模复制期</text>
+
+  <!-- ===== GROUP 3: 2028年 ===== -->
+  <!-- bar1_x=913, bar2_x=1023, width=90 -->
+
+  <!-- Low bar (1500万): y=490-168=322, h=168 -->
+  <rect x="913" y="313" width="90" height="168" rx="4" fill="url(#barLow)"/>
+  <!-- High bar (2250万): y=490-252=238, h=252 -->
+  <rect x="1013" y="229" width="90" height="252" rx="4" fill="url(#barHigh)"/>
+
+  <text x="958" y="309" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">1500</text>
+  <text x="1058" y="225" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">2250</text>
+
+  <text x="1008" y="501" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#E8EDF2" text-anchor="middle" font-weight="bold">2028年</text>
+  <text x="1008" y="519" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">成熟扩张期</text>
+
+  <!-- ===== BOTTOM: Pricing Cards + Total KPI ===== -->
+
+  <!-- Card 1: 基础版 -->
+  <rect x="60" y="539" width="330" height="130" rx="8" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="60" y="539" width="330" height="130" rx="8" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <rect x="60" y="539" width="330" height="5" rx="3" fill="#5ACBF0"/>
+  <text x="225" y="569" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8EDF2" text-anchor="middle">基础版</text>
+  <text x="225" y="591" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="28" font-weight="bold" fill="#5ACBF0" text-anchor="middle">80~100万</text>
+  <text x="225" y="613" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">NPI协同平台（无AI模块）</text>
+  <text x="225" y="633" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">适合预算敏感型客户</text>
+  <text x="225" y="662" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">实施周期约6~8个月</text>
+
+  <!-- Card 2: 标准版 -->
+  <rect x="415" y="539" width="330" height="130" rx="8" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="415" y="539" width="330" height="130" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="415" y="539" width="330" height="5" rx="3" fill="#5ACBF0"/>
+  <rect x="415" y="539" width="330" height="34" rx="6" fill="#5ACBF0" fill-opacity="0.1"/>
+  <text x="580" y="569" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#5ACBF0" text-anchor="middle">标准版  ★ 主推</text>
+  <text x="580" y="591" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="28" font-weight="bold" fill="#5ACBF0" text-anchor="middle">150~180万</text>
+  <text x="580" y="613" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">平台+AI辅助（8~12个NPI场景）</text>
+  <text x="580" y="633" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">包含图纸识别+Q-Plan+FAI报告</text>
+  <text x="580" y="662" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">实施周期约10~13个月</text>
+
+  <!-- Card 3: 旗舰版 -->
+  <rect x="770" y="539" width="330" height="130" rx="8" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="770" y="539" width="330" height="130" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="770" y="539" width="330" height="5" rx="3" fill="#5ACBF0"/>
+  <text x="935" y="569" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#5ACBF0" text-anchor="middle">旗舰版</text>
+  <text x="935" y="591" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="28" font-weight="bold" fill="#5ACBF0" text-anchor="middle">200~250万</text>
+  <text x="935" y="613" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">全量AI应用（23类NPI表单）</text>
+  <text x="935" y="633" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">DFM规则推荐+完整知识库</text>
+  <text x="935" y="662" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">实施周期约13~18个月</text>
+
+  <!-- KPI Summary (right) -->
+  <rect x="1120" y="539" width="100" height="130" rx="8" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="1120" y="539" width="100" height="130" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <text x="1170" y="571" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">3年累计</text>
+  <text x="1170" y="599" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#5ACBF0" text-anchor="middle">2550~</text>
+  <text x="1170" y="621" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#5ACBF0" text-anchor="middle">3900万</text>
+  <line x1="1128" y1="633" x2="1212" y2="633" stroke="#1A4A7A" stroke-width="1"/>
+  <text x="1170" y="658" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB" text-anchor="middle">回收期</text>
+  <text x="1170" y="672" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" font-weight="bold" fill="#5ACBF0" text-anchor="middle">14~18月</text>
+
+  <!-- Footer -->
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

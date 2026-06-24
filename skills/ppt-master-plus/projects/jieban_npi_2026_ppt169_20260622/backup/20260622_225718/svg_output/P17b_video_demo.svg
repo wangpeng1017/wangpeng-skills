@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdr17b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="videoBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#001E3A"/>
+      <stop offset="100%" stop-color="#00284C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdr17b)"/>
+
+  <!-- Badge + Title -->
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="53" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">05 经济</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">产品演示：NPI协同平台实操视频</text>
+
+  <!-- Video placeholder area -->
+  <rect x="200" y="108" width="880" height="495" rx="12" fill="url(#videoBg)"/>
+  <rect x="200" y="108" width="880" height="495" rx="12" fill="none" stroke="#1A4A7A" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- Film strip top decoration -->
+  <rect x="200" y="108" width="880" height="28" rx="12" fill="#001624"/>
+  <rect x="200" y="564" width="880" height="39" rx="12" fill="#001624"/>
+  <!-- Film holes top -->
+  <rect x="220" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="258" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="296" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="334" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="900" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="938" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="976" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="1014" y="114" width="16" height="16" rx="3" fill="#003A6E"/>
+  <!-- Film holes bottom -->
+  <rect x="220" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="258" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="296" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="334" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="900" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="938" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="976" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+  <rect x="1014" y="570" width="16" height="16" rx="3" fill="#003A6E"/>
+
+  <!-- Play button circle -->
+  <circle cx="640" cy="355" r="72" fill="#003A6E" fill-opacity="0.8"/>
+  <circle cx="640" cy="355" r="72" fill="none" stroke="#5ACBF0" stroke-width="2"/>
+  <polygon points="622,324 622,386 685,355" fill="#5ACBF0"/>
+
+  <!-- Video title overlay -->
+  <text x="640" y="448" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="18" font-weight="bold" fill="#E8EDF2" text-anchor="middle">NPI数字化协同平台 · 全功能演示</text>
+  <text x="640" y="474" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">演示内容：项目创建 → DR图纸评审（AI辅助）→ MTD检测 → CPK报告一键生成</text>
+
+  <!-- Pending badge -->
+  <rect x="504" y="498" width="272" height="30" rx="15" fill="#5ACBF0" fill-opacity="0.15"/>
+  <rect x="504" y="498" width="272" height="30" rx="15" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="640" y="518" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">⏳  视频文件待上传 · 请替换此占位页</text>
+
+  <!-- Duration / info bar -->
+  <rect x="200" y="564" width="880" height="39" rx="12" fill="#001624"/>
+  <text x="230" y="588" font-family="Courier New, monospace" font-size="12" fill="#5ACBF0">▶  00:00</text>
+  <rect x="302" y="580" width="620" height="4" rx="2" fill="#1A4A7A"/>
+  <rect x="302" y="580" width="1" height="4" rx="2" fill="#5ACBF0"/>
+  <text x="940" y="588" font-family="Courier New, monospace" font-size="12" fill="#6B7F94">~  08:00</text>
+
+  <!-- Page number + Logo -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">22</text>
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+</svg>

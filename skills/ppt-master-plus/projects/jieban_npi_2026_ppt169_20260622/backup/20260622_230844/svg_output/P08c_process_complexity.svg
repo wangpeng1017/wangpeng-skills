@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdr8c" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdr8c)"/>
+
+  <!-- Badge + Title -->
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="53" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">02 技术</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">传统NPI的困境：文件分散 · 版本混乱 · 协作低效</text>
+  <text x="60" y="99" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB">以下为磁声B747项目真实文件夹截图——一个项目=40+分散文件，无平台管理</text>
+
+  <!-- ===== Left: File tree panel (x=60~680) ===== -->
+  <rect x="60" y="110" width="590" height="545" rx="8" fill="#001624" fill-opacity="0.8"/>
+  <rect x="60" y="110" width="590" height="545" rx="8" fill="none" stroke="#1A4A7A" stroke-width="1"/>
+  <!-- Terminal top bar -->
+  <rect x="60" y="110" width="590" height="32" rx="8" fill="#003A6E"/>
+  <circle cx="86" cy="126" r="6" fill="#E05050" fill-opacity="0.7"/>
+  <circle cx="108" cy="126" r="6" fill="#E0A040" fill-opacity="0.7"/>
+  <circle cx="130" cy="126" r="6" fill="#50C050" fill-opacity="0.7"/>
+  <text x="200" y="130" font-family="Courier New, monospace" font-size="12" fill="#9BAABB">~/B747_NPI项目文件夹/  (Finder)</text>
+
+  <!-- File tree content -->
+  <text x="80" y="165" font-family="Courier New, monospace" font-size="11" fill="#5ACBF0">📁 B747/</text>
+
+  <!-- ASSY branch -->
+  <text x="80" y="184" font-family="Courier New, monospace" font-size="10.5" fill="#E8EDF2">├─ 📁 ASSY/</text>
+  <text x="80" y="201" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ DFM/  DFM_RAMP_SUB-ASSY_BUD RET_L_B747_250624.pptx</text>
+  <text x="80" y="216" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  │       DFM_RAMP_SUB-ASSY_BUD RET_R_B747_250624.pptx</text>
+  <text x="80" y="231" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ DR/   B747_Ramp_BUD Magnet_Drawing Review_MGS_20250612.key</text>
+  <text x="80" y="246" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ Drawing_Internal/  06289-35102-A（右）.pdf  06290-35106-A（左）.pdf</text>
+  <text x="80" y="261" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  │                    F07499-35102-B（右）.pdf  F07500-35106-B（左）.pdf</text>
+  <text x="80" y="276" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ Drawing_2D from A/  613-35102-91(内25.06.25）.pdf</text>
+  <text x="80" y="291" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ Drawing_3D from A/  613-35102-91.stp  613-35106-90.stp</text>
+  <text x="80" y="306" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">│  ├─ FAI CPK/  B747_EVT_CPK_ASSY-BUD L_613-35106-02_0309.xlsm</text>
+  <text x="80" y="321" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">│  │            B747_EVT_FAI_ASSY-BUD L_613-35106-02_0309.xlsx</text>
+  <text x="80" y="336" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ MTD/   B747_Ramp_MTD_ASSY_613-35102-B_Magsound_20250917.key</text>
+  <text x="80" y="351" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ OQC/   B747_Ramp_BUD Magnet Cosmetic_Rev.3_MGS_250804.key</text>
+  <text x="80" y="366" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">│  ├─ Qplan/ B747_Ramp_ASSY Magnet_613-35102-B_Magsound_250917.xlsx</text>
+  <text x="80" y="381" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">│  ├─ SIP/   BH47_MP_ASSY-Magnet_作业指导_20250712_V5.xls</text>
+  <text x="80" y="396" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  └─ YGA/   MGS_B747_EVT_BUD Magnet_YGA Report_2503010.key</text>
+
+  <!-- Piece Part branch -->
+  <text x="80" y="415" font-family="Courier New, monospace" font-size="10.5" fill="#E8EDF2">├─ 📁 Piece Part/</text>
+  <text x="80" y="430" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ DFM/   DFM_Ramp_MAGNET_RADIAL_M1_B747_160-05689-91_250630.pptx</text>
+  <text x="80" y="445" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ DR/    B747_P2_Magnet_160-05689-01_Drawing Review_20241125.key</text>
+  <text x="80" y="460" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">│  ├─ FAI CPK/  B747_Ramp_CPK_Radial_M1_160-05689-91_0703.xlsm</text>
+  <text x="80" y="475" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">│  ├─ MTD/   B747_Ramp_MTD_Radial M1&amp;M2_160-05689-A_20250917.key</text>
+  <text x="80" y="490" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">│  ├─ Qplan/ B747_Ramp_Radial M1&amp;M2_160-05689-A_Magsound_250917.xlsx</text>
+  <text x="80" y="505" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">│  └─ SIP/   BH47_MP_Radial &amp; WP Magnet_作业指导_20250713_V4.xls</text>
+
+  <!-- Root level files -->
+  <text x="80" y="524" font-family="Courier New, monospace" font-size="10.5" fill="#E8EDF2">├─ 📁 BOM/   BH47_MP_研发BOM_自动线&amp;无重稀土&amp;粘接_20251117.xlsx</text>
+  <text x="80" y="539" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">├─ BH47（06289-35102）-Line 1 自动线组装作业指导书-2025.12.16.xlsx</text>
+  <text x="80" y="554" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">├─ BH47（06289-35102）-Line 2 自动线组装作业指导书-2025.12.16.xlsx</text>
+  <text x="80" y="569" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">├─ BH47-06083-05689（M1）自动线SOP-20250923.xlsx</text>
+  <text x="80" y="584" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">├─ BH47-(06083~06087)包装作业指导书-250521.xlsx</text>
+  <text x="80" y="599" font-family="Courier New, monospace" font-size="10" fill="#E8C05A">├─ Yield/  NPI良率报表BH47项目.xlsx</text>
+  <text x="80" y="614" font-family="Courier New, monospace" font-size="10" fill="#9BAABB">└─ Magnet Quality Weekly Update_MGS_20251108.key</text>
+
+  <!-- Stats bar at bottom of file tree -->
+  <rect x="60" y="630" width="590" height="25" rx="0" fill="#003A6E" fill-opacity="0.5"/>
+  <text x="350" y="646" font-family="Courier New, monospace" font-size="11" fill="#5ACBF0" text-anchor="middle">共 45+ 文件  ·  9大文件夹  ·  6种文件格式  ·  全部本地管理</text>
+
+  <!-- ===== Right: 3 pain-point cards (x=680~1230) ===== -->
+
+  <!-- Pain 1 -->
+  <rect x="692" y="110" width="538" height="155" rx="8" fill="#001E3A"/>
+  <rect x="692" y="110" width="538" height="155" rx="8" fill="none" stroke="#E05050" stroke-width="1" stroke-opacity="0.6"/>
+  <rect x="692" y="110" width="6" height="155" rx="3" fill="#E05050" fill-opacity="0.7"/>
+  <text x="718" y="138" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#E8EDF2">文件分散，版本混乱</text>
+  <text x="718" y="160" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· 45+文件散落在本地电脑，靠文件夹人工维护</text>
+  <text x="718" y="178" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· 版本靠文件名日期区分（_250917 / _V4 / _Rev.3）</text>
+  <text x="718" y="196" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· Apple要求更新图纸 → 逐文件夹手动查找替换</text>
+  <text x="718" y="214" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· 多人并行修改同一文件，频繁产生版本冲突</text>
+  <text x="718" y="232" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#E05050">→ 改一张图纸需要同步更新DR/DFM/FAI/SIP等10+关联文件</text>
+
+  <!-- Pain 2 -->
+  <rect x="692" y="280" width="538" height="155" rx="8" fill="#001E3A"/>
+  <rect x="692" y="280" width="538" height="155" rx="8" fill="none" stroke="#E0A040" stroke-width="1" stroke-opacity="0.6"/>
+  <rect x="692" y="280" width="6" height="155" rx="3" fill="#E0A040" fill-opacity="0.7"/>
+  <text x="718" y="308" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#E8EDF2">跨部门协作靠人传</text>
+  <text x="718" y="330" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· PM每次向工程/品质/计量分发任务：发微信+发邮件+附件</text>
+  <text x="718" y="348" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· 无统一任务状态看板，进度追踪靠会议报告</text>
+  <text x="718" y="366" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· 各部门用不同工具：Engineering用.key，品质用.xlsx，工程用.stp</text>
+  <text x="718" y="384" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">· DR结论沉在Apple格式PPT里，无法被后续流程自动引用</text>
+  <text x="718" y="402" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11" fill="#E0A040">→ 一个RAMP节点需召集5+部门重新对齐，每次1-2天</text>
+
+  <!-- Pain 3 -->
+  <rect x="692" y="450" width="538" height="155" rx="8" fill="#001E3A"/>
+  <rect x="692" y="450" width="538" height="155" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="692" y="450" width="6" height="155" rx="3" fill="#5ACBF0" fill-opacity="0.6"/>
+  <text x="718" y="478" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#E8EDF2">平台化的价值对比</text>
+  <text x="718" y="500" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="12" fill="#9BAABB">  传统方式               →   NPI协同平台</text>
+  <line x1="718" y1="508" x2="1210" y2="508" stroke="#1A4A7A" stroke-width="0.8"/>
+  <text x="718" y="526" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11.5" fill="#9BAABB">📁 本地文件夹45+文件   →   📊 统一数据库+版本控制</text>
+  <text x="718" y="546" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11.5" fill="#9BAABB">📧 邮件/微信传文件     →   🔔 系统派发+状态跟踪</text>
+  <text x="718" y="566" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11.5" fill="#9BAABB">🔍 人工翻查图纸尺寸   →   🤖 AI-OCR自动提取</text>
+  <text x="718" y="586" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="11.5" fill="#9BAABB">📝 手动填PPT/Excel报告 →   📄 一键生成标准格式报告</text>
+
+  <!-- Page number + Logo -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">12</text>
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+</svg>

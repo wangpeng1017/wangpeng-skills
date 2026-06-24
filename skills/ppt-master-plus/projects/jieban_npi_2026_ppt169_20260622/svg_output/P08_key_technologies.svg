@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="card1top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="card2top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="card3top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#003A6E" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+  <rect x="0" y="0" width="1280" height="75" fill="#003A6E" fill-opacity="0.6"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#hdrGrad)"/>
+
+  <!-- Header -->
+  <text x="60" y="695" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#6B7F94" text-anchor="middle">10</text>
+
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="#5ACBF0" fill-opacity="0.2"/>
+  <rect x="60" y="38" width="90" height="22" rx="3" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="105" y="53" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="12" fill="#5ACBF0" text-anchor="middle">02 技术</text>
+  <text x="170" y="55" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="24" font-weight="bold" fill="#E8EDF2">三大关键技术突破</text>
+  <text x="60" y="115" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">图纸智能识别、知识库RAG检索、多模态文档生成三项技术协同驱动NPI全链路AI辅助</text>
+
+  <!-- 3 equal-width cards: 356px each, 24px gap -->
+  <!-- Card 1: 工程图纸智能识别 (x=60, w=356) -->
+  <rect x="60" y="132" width="356" height="510" rx="12" fill="url(#card1top)"/>
+  <rect x="60" y="132" width="356" height="510" rx="12" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <!-- Top accent bar -->
+  <rect x="60" y="132" width="356" height="6" rx="3" fill="#5ACBF0"/>
+
+  <!-- Icon circle -->
+  <circle cx="238" cy="208" r="52" fill="#5ACBF0" fill-opacity="0.15"/>
+  <circle cx="238" cy="208" r="52" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <use data-icon="tabler-outline/scan" x="210" y="180" width="56" height="56" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+
+  <!-- Card 1 content -->
+  <text x="238" y="290" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E8EDF2" text-anchor="middle">工程图纸智能识别</text>
+  <text x="238" y="316" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">OCR + GNN + AABB碰撞盒技术栈</text>
+
+  <!-- Divider -->
+  <line x1="88" y1="334" x2="388" y2="334" stroke="#1A4A7A" stroke-width="1"/>
+
+  <!-- Details -->
+  <circle cx="92" cy="360" r="4" fill="#5ACBF0"/>
+  <text x="108" y="366" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">结构化解析图纸标注信息</text>
+
+  <circle cx="92" cy="394" r="4" fill="#5ACBF0"/>
+  <text x="108" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">GNN图神经网络边生成</text>
+
+  <circle cx="92" cy="428" r="4" fill="#5ACBF0"/>
+  <text x="108" y="434" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">多种图纸格式自适应支持</text>
+
+  <!-- KPI highlight -->
+  <rect x="88" y="464" width="300" height="64" rx="8" fill="#5ACBF0" fill-opacity="0.12"/>
+  <rect x="88" y="464" width="300" height="64" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="238" y="490" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">识别准确率目标</text>
+  <text x="238" y="517" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="26" font-weight="bold" fill="#5ACBF0" text-anchor="middle">≥ 85%</text>
+
+  <!-- Card 2: RAG知识库检索 (x=440) -->
+  <rect x="440" y="132" width="356" height="510" rx="12" fill="url(#card2top)"/>
+  <rect x="440" y="132" width="356" height="510" rx="12" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="440" y="132" width="356" height="6" rx="3" fill="#5ACBF0"/>
+
+  <circle cx="618" cy="208" r="52" fill="#5ACBF0" fill-opacity="0.15"/>
+  <circle cx="618" cy="208" r="52" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <use data-icon="tabler-outline/brain" x="590" y="180" width="56" height="56" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+
+  <text x="618" y="290" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E8EDF2" text-anchor="middle">RAG知识库检索</text>
+  <text x="618" y="316" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">向量化知识库 + 语义检索推荐</text>
+
+  <line x1="468" y1="334" x2="768" y2="334" stroke="#1A4A7A" stroke-width="1"/>
+
+  <circle cx="472" cy="360" r="4" fill="#5ACBF0"/>
+  <text x="488" y="366" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">历史DR问题库语义检索</text>
+
+  <circle cx="472" cy="394" r="4" fill="#5ACBF0"/>
+  <text x="488" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">DFM规则知识图谱关联</text>
+
+  <circle cx="472" cy="428" r="4" fill="#5ACBF0"/>
+  <text x="488" y="434" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">工艺经验智能推荐召回</text>
+
+  <rect x="468" y="464" width="300" height="64" rx="8" fill="#5ACBF0" fill-opacity="0.12"/>
+  <rect x="468" y="464" width="300" height="64" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="618" y="490" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">ORCA平台自研AI引擎</text>
+  <text x="618" y="517" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="26" font-weight="bold" fill="#5ACBF0" text-anchor="middle">海克斯康自研</text>
+
+  <!-- Card 3: 多模态文档自动生成 (x=820) -->
+  <rect x="820" y="132" width="400" height="510" rx="12" fill="url(#card3top)"/>
+  <rect x="820" y="132" width="400" height="510" rx="12" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <rect x="820" y="132" width="400" height="6" rx="3" fill="#5ACBF0"/>
+
+  <circle cx="1020" cy="208" r="52" fill="#5ACBF0" fill-opacity="0.15"/>
+  <circle cx="1020" cy="208" r="52" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <use data-icon="tabler-outline/file-check" x="992" y="180" width="56" height="56" stroke="#5ACBF0" stroke-width="2" fill="none"/>
+
+  <text x="1020" y="290" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" font-weight="bold" fill="#E8EDF2" text-anchor="middle">多模态文档自动生成</text>
+  <text x="1020" y="316" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#5ACBF0" text-anchor="middle">大模型 + 结构化模板驱动</text>
+
+  <line x1="848" y1="334" x2="1192" y2="334" stroke="#1A4A7A" stroke-width="1"/>
+
+  <circle cx="852" cy="360" r="4" fill="#5ACBF0"/>
+  <text x="868" y="366" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">23类NPI表单AI辅助填写</text>
+
+  <circle cx="852" cy="394" r="4" fill="#5ACBF0"/>
+  <text x="868" y="400" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">结合图纸+历史数据自动预填</text>
+
+  <circle cx="852" cy="428" r="4" fill="#5ACBF0"/>
+  <text x="868" y="434" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="15" fill="#9BAABB">人工审核+系统生成协同</text>
+
+  <rect x="848" y="464" width="344" height="64" rx="8" fill="#5ACBF0" fill-opacity="0.12"/>
+  <rect x="848" y="464" width="344" height="64" rx="8" fill="none" stroke="#5ACBF0" stroke-width="1"/>
+  <text x="1020" y="490" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="13" fill="#9BAABB" text-anchor="middle">文档编制效率提升目标</text>
+  <text x="1020" y="517" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="26" font-weight="bold" fill="#5ACBF0" text-anchor="middle">≥ 30%</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="700" x2="1220" y2="700" stroke="#1A4A7A" stroke-width="1"/>
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>

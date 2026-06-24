@@ -1,0 +1,15 @@
+{
+  "status": "confirmed",
+  "canvas": "ppt169",
+  "mode": "briefing",
+  "visual_style": "tech-enterprise",
+  "icons": "tabler-outline",
+  "image_usage": "none",
+  "formula_policy": "text-only",
+  "generation_mode": "continuous",
+  "refine_spec": false,
+  "page_count": "18-20",
+  "audience": "公司评审委员会（高管+技术专家+财务专家），内部接榜挂帅项目答辩",
+  "color_selected": 0,
+  "typography_selected": 0
+}

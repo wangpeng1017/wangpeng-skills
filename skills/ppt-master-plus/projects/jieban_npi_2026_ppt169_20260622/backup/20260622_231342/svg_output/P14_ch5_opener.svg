@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ACBF0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#5ACBF0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5ACBF0" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#00284C"/>
+
+  <!-- Right accent band -->
+<!-- Giant decorative "05" -->
+  <text x="640" y="570" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="520" font-weight="bold" fill="#5ACBF0" fill-opacity="0.06">05</text>
+
+  <!-- Background: coin stack decoration -->
+  <circle cx="980" cy="280" r="80" fill="none" stroke="#5ACBF0" stroke-width="1.5" stroke-opacity="0.15"/>
+  <circle cx="980" cy="280" r="60" fill="none" stroke="#5ACBF0" stroke-width="1" stroke-opacity="0.12"/>
+  <circle cx="980" cy="280" r="40" fill="#5ACBF0" fill-opacity="0.06"/>
+  <text x="980" y="287" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="28" fill="#5ACBF0" fill-opacity="0.3" text-anchor="middle">¥</text>
+
+  <!-- Background glow -->
+  <ellipse cx="250" cy="340" rx="300" ry="220" fill="#003A6E" fill-opacity="0.2"/>
+
+  <!-- Left decoration line -->
+  <rect x="60" y="180" width="5" height="260" rx="3" fill="#5ACBF0"/>
+
+  <!-- Chapter badge -->
+  <rect x="80" y="180" width="120" height="32" rx="4" fill="#5ACBF0" fill-opacity="0.15"/>
+  <rect x="80" y="180" width="120" height="32" rx="4" fill="none" stroke="#5ACBF0" stroke-width="1.5"/>
+  <text x="140" y="201" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="14" fill="#5ACBF0" text-anchor="middle">CHAPTER 05</text>
+
+  <!-- Large chapter number -->
+  <text x="80" y="340" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="110" font-weight="bold" fill="#5ACBF0">05</text>
+
+  <!-- Accent line -->
+  <rect x="80" y="358" width="500" height="4" fill="url(#accentLine)"/>
+
+  <!-- Chapter title -->
+  <text x="80" y="412" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="48" font-weight="bold" fill="#E8EDF2">经费预算及经济效益</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="460" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="20" fill="#9BAABB">总投入260万，3年预期收入2550~3900万，ROI显著</text>
+
+  <!-- Bottom bullets -->
+  <line x1="80" y1="496" x2="580" y2="496" stroke="#1A4A7A" stroke-width="1"/>
+
+  <circle cx="94" cy="525" r="4" fill="#5ACBF0"/>
+  <text x="110" y="531" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB">详细列出7科目预算清单，财务专家可独立评审合理性</text>
+
+  <circle cx="94" cy="555" r="4" fill="#5ACBF0"/>
+  <text x="110" y="561" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="16" fill="#9BAABB">3个产品版本定价梯度，3年销量预测，投入回收期14~18个月</text>
+
+  <!-- Right accent bar label -->
+  <text x="1257" y="350" font-family="&quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" transform="rotate(90,1257,370)">BUDGET &amp; ECONOMIC BENEFITS</text>
+
+  <!-- Footer -->
+  <text x="60" y="695" font-family="Arial, sans-serif" font-size="13" fill="#6B7F94">18 / 23</text>
+  <!-- HEXAGON logo white — bottom right -->
+  <image href="../images/hexagon_logo_white.png" x="1090" y="650" width="148" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+</svg>
