@@ -22,17 +22,30 @@ codex --version
 
 ## 模型选择
 
-Codex CLI 用 `-m` 参数指定模型，会直接调用该模型执行。常用选项：
+⚠️ **王老师的 Codex CLI 走的是 cc-switch 本地代理（`~/.codex/config.toml` 里 `model_provider = "deepseek"`，
+`base_url = "http://127.0.0.1:20129/v1"`），不是直连 OpenAI。这个代理只认它自己注册的模型名，
+传 `o3`/`gpt-5.1`/`o4-mini` 这类 OpenAI 官方模型名会直接报错失败**（2026-07-27 吉利项目会话里踩过一次坑，
+另一个 LIMS 会话也大概率栽在这里——凡是照抄下面这类通用文档示例传 OpenAI 模型名的，
+基本都会踩雷）。
+
+**每次用之前，先确认当前有效模型名，不要凭记忆/凭通用文档假设**：
 
 ```bash
-codex exec -m o3 "..."          # OpenAI o3
-codex exec -m gpt-5.1 "..."     # GPT-5.1
-codex exec -m o4-mini "..."     # o4-mini（轻量快速）
+cat ~/.codex/cc-switch-model-catalog.json | python3 -c "import json,sys; [print(m['id']) for m in json.load(sys.stdin)['models']]"
 ```
 
-不指定 `-m` 则用 Codex 配置文件中的默认模型。对于复杂代码改动建议用 `o3` 或 `gpt-5.1`，简单机械性任务可用 `o4-mini`。
+截至 2026-07-27，这个代理只注册了两个有效模型名：`deepseek-v4-pro`（复杂任务，推荐）、
+`deepseek-v4-flash`（简单机械性任务，也是配置文件里的默认值）。如果王老师后续切换了 cc-switch 的
+渠道/供应商，这两个名字可能会变——**以上面这条命令实际查到的为准，不要死记这两个名字**。
 
-王老师有特殊偏好可以在指令中指定模型，否则 Claude 根据任务复杂度自行选择。
+```bash
+codex exec -m deepseek-v4-pro "..."    # 复杂代码改动、需要判断力的任务
+codex exec -m deepseek-v4-flash "..."  # 简单机械性任务（也是不传 -m 时的默认值）
+```
+
+不确定传什么就干脆不传 `-m`，直接用配置文件里的默认模型，不会因为模型名不对报错。
+
+王老师有特殊偏好可以在指令中指定模型，否则 Claude 根据任务复杂度自行选择（复杂→pro，简单→flash/默认）。
 
 ## 执行流程
 
@@ -56,7 +69,7 @@ codex exec "<完整任务指令，见下方模板>" \
 
 | 参数 | 说明 |
 |------|------|
-| `-m <model>` | 指定模型，如 `o3`、`gpt-5.1`、`o4-mini` |
+| `-m <model>` | 指定模型——先用上面"模型选择"一节的命令查当前有效模型名，不要直接抄 `o3`/`gpt-5.1` 这类 OpenAI 官方名 |
 | `-C <dir>` | 工作目录（绝对路径），相当于 qodercli 的 `--cwd` |
 | `--dangerously-bypass-approvals-and-sandbox` | 全自动执行，不打断确认，不沙箱限制 |
 | `--skip-git-repo-check` | 允许在非 git 仓库执行（安全，Codex 只是不需要 git 上下文） |
@@ -104,7 +117,8 @@ Codex 报"完成"不等于真的对——跟审查子 Agent 产出一个标准�
 
 ## 边界情况
 
-- Codex 执行中途报错/卡住/产出明显不对 → 不要重复无脑重试，把情况告诉王老师，问是重新组织指令再试，还是 Claude 自己接手改
+- 报错信息里出现 `stream disconnected before completion` + `The supported API model names are ...` → 这就是模型名不对（见上面"模型选择"一节），换成实际有效的模型名重跑，不用怀疑是别的原因
+- Codex 执行中途报错/卡住/产出明显不对（且不是上面这种模型名报错）→ 不要重复无脑重试，把情况告诉王老师，问是重新组织指令再试，还是 Claude 自己接手改
 - 涉及生产部署、危险数据操作等本来就要跟王老师确认的动作 → 依然要确认，不因为走了协同模式就自动降级成"Codex 都能做"
 - Codex 登录态过期 → 让王老师跑 `codex login` 重新认证
 - sandbox 权限不足导致某些命令被拦截 → 确认任务确实需要，然后加 `-s danger-full-access` 或直接用 `--dangerously-bypass-approvals-and-sandbox`
