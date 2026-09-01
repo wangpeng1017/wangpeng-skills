@@ -1,10 +1,15 @@
 ---
 deck_id: huixin_product_solution
 kind: deck
-summary: 慧新产品解决方案、软件平台、AI平台、智能制造、数字化系统能力展示.
+summary: 慧新产品解决方案、软件平台、AI平台、智能制造、数字化系统能力展示；包含复杂多层分域架构、业务/功能/系统/数据/集成/技术/部署架构、多系统集成总览、流程、实施、截图和案例页.
 canvas_format: ppt169
-page_count: 21
-primary_color: "#4295B6"
+canvas_width: 1280
+canvas_height: 720
+canvas_viewbox: "0 0 1280 720"
+native_structure_mode: legacy-flat
+replication_mode: standard
+page_count: 22
+primary_color: "#0097BA"
 ---
 
 # Huixin Product Solution - Design Specification
@@ -33,11 +38,11 @@ primary_color: "#4295B6"
 
 | Role | Color Value | Usage |
 | --- | --- | --- |
-| **Technology Blue** | `#4295B6` | Platform architecture, system modules, navigation, process lines |
-| **Vitality Green** | `#B0D776` | AI capabilities, value points, highlights, product advantages, metrics |
-| **Brand Gray** | `#D2D3D4` | Module borders, structural partitions, connection lines, auxiliary notes |
+| **Technology Blue** | `#0097BA` | Platform architecture, system modules, navigation, process lines |
+| **Vitality Green** | `#83C410` | AI capabilities, value points, highlights, product advantages, metrics |
+| **Brand Gray** | `#D0CECE` | Module borders, structural partitions, connection lines, auxiliary notes |
 | **Wordmark Black** | `#000000` | Official Huixin wordmark on light backgrounds |
-| **Deep Blue Gray** | `#0B2F3A` | Titles, body text, premium background blocks, technical base layer |
+| **Deep Blue Gray** | `#111111` | Titles, body text, premium background blocks, technical base layer |
 | **White** | `#FFFFFF` | Page background, card surfaces, reverse text |
 
 ## IV. Typography System
@@ -51,9 +56,13 @@ primary_color: "#4295B6"
 | **Caption** | Note / footer | 11-13px | Regular |
 | **Metric** | Business value number | 42-52px | Bold |
 
-**Primary Font**: `"Microsoft YaHei"`
+**Primary Font**: `"MiSans, Microsoft YaHei, Arial, sans-serif"`
 
-**SVG Font**: `"Microsoft YaHei"` — all SVG text uses Microsoft YaHei / 微软雅黑 as the single design font.
+**SVG Font**: `"MiSans, Microsoft YaHei, Arial, sans-serif"` — use MiSans first with Microsoft YaHei / Arial fallback.
+
+### Latest Light Template Baseline
+
+This deck follows the official `慧新全智PPT模板_浅色版本.pptx` visual baseline (source SHA-256: `0b700b898693c99b6ef50a4a00db5ad3c81ba9bb02fe46bec712d545841a1906`). Use the latest high-resolution Huixin Quanzhi lockup, `#0097BA` technology blue, `#83C410` vitality green, `#D0CECE` structural gray, white / very-light-gray working backgrounds, and MiSans typography. Covers use the industrial mosaic at the right; chapter pages may use the teal chapter background; standard content pages use the compact lower-left logo and blue-green footer ribbon. Existing dense architecture pages may retain a compact top-right logo when the lower footer would reduce diagram capacity.
 
 ## V. Logo, Icon and Brand Mark
 
@@ -75,6 +84,14 @@ Usage rules:
 ### Mandatory Huixin Icon / Diagram Contract
 
 Every generated page that uses this deck should include at least one visible Huixin brand-geometry cue beyond the logo: slanted bars, angled module tabs, diagonal separators, segmented chevrons, or parallelogram highlights. These cues are not decorative extras; they are the deck's icon system and should replace generic auto-generated icons wherever possible.
+
+### Template Adaptation Rules
+
+1. Prefer the reusable SVG page type / master defined in this spec when it fits the source story, content density, and expected decision path.
+2. Do not force source content into a template page when the real solution needs more layers, swimlanes, systems, data flows, actors, stages, or exception paths than the base page expresses.
+3. Custom or recomposed pages are allowed when the content requires them, but they must preserve Huixin's palette, white / light-gray technical background style, top-right logo discipline, slanted-bar brand geometry, editable SVG structure, and product-solution narrative logic.
+4. Architecture pages must communicate the actual architecture rather than the template's default layer count. If a product or integration architecture has more than five logical layers, multiple platforms, cloud / edge / device layers, AI / data / integration / security / governance layers, or complex bidirectional interfaces, redesign the diagram structure to fit the content instead of using the five-layer base unchanged.
+5. When adapting an architecture page, keep domains grouped and labeled, use blue for product / system structure, green for value / flow / checkpoints, gray for neutral boundaries / infrastructure, and preserve a clear reader path from business capability -> application / system -> data / integration -> deployment / operation.
 
 ## VI. Layout Structure
 
@@ -101,12 +118,13 @@ Every generated page that uses this deck should include at least one visible Hui
 
 Product architecture pages must feel like mature enterprise software architecture, not a simple three-row stack. When a page uses `04_product_architecture.svg` or any of the architecture templates (`11`-`15`, `17`, `19`):
 
-1. Show at least five visible architecture strata: user/application, business process, platform services, data/AI, and integration/foundation.
+1. Use five visible architecture strata as the simple baseline: user/application, business process, platform services, data/AI, and integration/foundation. Extend, split, or regroup the strata when the source architecture is more complex.
 2. Fill the body with 12-18 editable module nodes distributed across the strata; avoid empty bands, oversized labels, or only 3-4 broad rectangles.
-3. Include a right-side output or value column with 3-4 short deliverables such as dashboards, evidence packages, risk alerts, or APIs.
+3. Include a right-side output, governance, or value column with 3-4 short deliverables such as dashboards, evidence packages, risk alerts, APIs, control points, or operating views.
 4. Draw at least two cross-layer arrows or data-flow cues so the page reads as a system, not a static list.
 5. Keep the architecture visually full but readable: use compact 13-15px module labels, short noun phrases, and move long explanation into the speaker notes.
 6. Do not paste an architecture screenshot as the main content. AI images may be used only as faint blueprint backgrounds; architecture modules, labels, connectors, and layer boundaries remain editable SVG/PPT geometry.
+7. If the architecture has many systems or domains, prioritize truthful grouping and readable relationships over preserving the template's original number of bands, columns, or nodes.
 
 ### Complex Diagram Page Contract
 
@@ -120,6 +138,7 @@ For industrial software solution decks, use the dedicated complex diagram pages 
 6. **Data architecture (`14_data_architecture.svg`)**: use governance framework rows for standards, quality, security, organization, workflow, tools, portal, functions, data scope, and foundation. The page should feel like a full data-management framework, not only source-to-dashboard flow.
 7. **Implementation stage plan (`20_implementation_stage_plan.svg`)**: use this when the source describes phased delivery, rollout roadmap, implementation planning, product deployment stages, or digital transformation implementation steps. Reference images may inform the four-stage planning rhythm only; keep Huixin's clean product-solution style and use product-solution content, not the reference page's text.
 8. **Multi-system integration overview (`21_multi_system_integration_overview.svg`)**: use this when the source asks for an overview of two or more systems working together, such as QMS/PLM, MES/WMS, ERP/MES, SRM/PLM, or any platform-to-platform integration. Keep the page abstract at template level: upstream systems, two core systems, right-side execution / data-closed-loop groups, and bottom end-to-end process can be specialized by downstream content, but the global template must not hard-code a specific product pair.
+9. **Complex multi-domain architecture (`22_complex_multi_domain_architecture.svg`)**: use this when a solution needs a high-density architecture page with central L1-L5 or equivalent layers, left/right domain swimlanes, secondary function labels, platform support blocks, and cross-domain collaboration arrows. Use it for complex smart factory, industrial internet, multi-platform AI, data + twin + security + operations architectures where ordinary five-layer architecture or single integration overview pages are too thin.
 
 ### Default AI Image and Screenshot Policy
 
@@ -143,7 +162,7 @@ When using this deck, Strategist should normally include image resources unless 
 
 ### 4. Product Architecture (`04_product_architecture.svg`)
 - Dense multi-layer product architecture for software platform and digital solution presentations.
-- Must preserve the Architecture Density Contract: five strata, 12-18 module nodes, right-side output column, integration base, and cross-layer flow cues.
+- Use as the default for straightforward platform architecture. For complex product architecture, preserve the Architecture Density Contract while extending or recomposing strata, module groups, output columns, and cross-layer flow cues according to the real content.
 
 ### 5. Core Capabilities (`05_core_capabilities.svg`)
 - Six modular capability cards for product features and system modules.
@@ -198,6 +217,11 @@ When using this deck, Strategist should normally include image resources unless 
 - Template-level labels remain abstract: upstream system group, core system one, core system two, business collaboration, data closed loop, and end-to-end process.
 - Use this page when the requested content is a cross-system integration summary rather than a single technical stack or dark enterprise system map.
 
+### 22. Complex Multi-Domain Architecture (`22_complex_multi_domain_architecture.svg`)
+- High-density architecture page with a central five-layer architecture stack, left and right domain swimlanes, bottom support platforms, and cross-domain collaboration arrows.
+- Use this when the content needs second-level functions and short explanations inside each layer, plus business / device / intelligent / governance domains around the central system stack.
+- This is the preferred page for complex smart factory, industrial internet, AI platform, data middle platform, digital twin, cyber-physical, and security-governed architectures when a simple five-layer product architecture cannot carry the meaning.
+
 ## VIII. SVG Page Roster
 
 | File | Role | Description |
@@ -223,6 +247,7 @@ When using this deck, Strategist should normally include image resources unless 
 | `19_business_process_diagram.svg` | business_process_diagram | Dense generic business process diagram with main path, branches and loopbacks |
 | `20_implementation_stage_plan.svg` | implementation_stage_plan | Complex phased implementation plan with goals, focus items, strategies and deliverables |
 | `21_multi_system_integration_overview.svg` | multi_system_integration_overview | Generic two-or-more-system integration overview with upstream systems, dual core systems, execution/data loop groups and end-to-end process |
+| `22_complex_multi_domain_architecture.svg` | complex_multi_domain_architecture | Complex high-density multi-layer architecture with central layers, left/right domain swimlanes, support platforms, secondary functions and cross-domain collaboration |
 
 ## IX. Layout Modes
 
@@ -287,5 +312,10 @@ When using this deck, Strategist should normally include image resources unless 
 | Asset | Purpose | Usage |
 | --- | --- | --- |
 | `images/reference_visual.png` | Imagegen-generated smart mine / intelligent manufacturing platform architecture reference | Optional reference only. Do not paste it as fixed slide content; use it to guide custom industry visuals when real project screenshots or scenario images are supplied. |
+| `images/huixin_logo_light.png` | Latest official Huixin Quanzhi horizontal lockup | Use on every page. On dark fields, place the unchanged logo on a compact white backing panel. Do not recreate, recolor, or substitute legacy logo variants. |
+| `images/huixin_light_cover_mosaic.png` | Official light-template industrial mosaic | Use for covers and image-led closings without replacing editable titles. |
+| `images/huixin_light_content_bg.png` | Official subtle light geometric background | Use at low visual weight on agenda or sparse content pages. |
+| `images/huixin_light_chapter_bg.png` | Official teal chapter background | Use for chapter dividers and major solution sections. |
+| `images/huixin_light_footer_ribbon.png` | Official blue-green footer ribbon | Use with the lower-left logo on standard content pages. |
 
 The bitmap reference should not replace architecture content. Keep product diagrams, deployment topologies, capability maps, and implementation paths as editable SVG geometry unless the project explicitly supplies real product screenshots.
