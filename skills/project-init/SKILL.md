@@ -46,7 +46,6 @@ description: 新项目初始化：判定项目类型→加载对应 profile→�
    - 功能域地图（页面↔API↔lib↔数据模型对照，随开发补全）
    - 文档指针
    - 文件头注明维护策略：**不做严格同步，大版本手动刷新，过期时以真实代码为准**
-   （存量项目参考样例：`~/Downloads/0103limsnext/PROJECT_INDEX.md`）
 
 ### 自动化脚本 / 文档生成（轻量项目）
 只做 1-2，PRD/PROJECT_INDEX 不建（YAGNI）；脚本按 profile 里的输出断言规范写。

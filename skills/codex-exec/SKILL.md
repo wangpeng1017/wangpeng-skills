@@ -5,7 +5,7 @@ description: 需求分析/方案设计/最终验证由 Claude Code 做，实际�
 
 # codex-exec — Claude 规划验证 + Codex CLI 执行 协同模式
 
-> 角色分工（王老师 2026-07-25 拍板）：**Claude Code 负责需求分析、方案设计、最终验证**；
+> 角色分工：**Claude Code 负责需求分析、方案设计、最终验证**；
 > **Codex CLI 负责实际代码改动**，用 `--dangerously-bypass-approvals-and-sandbox` 全自动执行、
 > 不中途打断确认；**整个任务一次性交给 Codex**（不拆成小步骤逐步喂指令）。
 
@@ -22,30 +22,7 @@ codex --version
 
 ## 模型选择
 
-⚠️ **王老师的 Codex CLI 走的是 cc-switch 本地代理（`~/.codex/config.toml` 里 `model_provider = "deepseek"`，
-`base_url = "http://127.0.0.1:20129/v1"`），不是直连 OpenAI。这个代理只认它自己注册的模型名，
-传 `o3`/`gpt-5.1`/`o4-mini` 这类 OpenAI 官方模型名会直接报错失败**（2026-07-27 吉利项目会话里踩过一次坑，
-另一个 LIMS 会话也大概率栽在这里——凡是照抄下面这类通用文档示例传 OpenAI 模型名的，
-基本都会踩雷）。
-
-**每次用之前，先确认当前有效模型名，不要凭记忆/凭通用文档假设**：
-
-```bash
-cat ~/.codex/cc-switch-model-catalog.json | python3 -c "import json,sys; [print(m['id']) for m in json.load(sys.stdin)['models']]"
-```
-
-截至 2026-07-27，这个代理只注册了两个有效模型名：`deepseek-v4-pro`（复杂任务，推荐）、
-`deepseek-v4-flash`（简单机械性任务，也是配置文件里的默认值）。如果王老师后续切换了 cc-switch 的
-渠道/供应商，这两个名字可能会变——**以上面这条命令实际查到的为准，不要死记这两个名字**。
-
-```bash
-codex exec -m deepseek-v4-pro "..."    # 复杂代码改动、需要判断力的任务
-codex exec -m deepseek-v4-flash "..."  # 简单机械性任务（也是不传 -m 时的默认值）
-```
-
-不确定传什么就干脆不传 `-m`，直接用配置文件里的默认模型，不会因为模型名不对报错。
-
-王老师有特殊偏好可以在指令中指定模型，否则 Claude 根据任务复杂度自行选择（复杂→pro，简单→flash/默认）。
+先跑 `codex exec "echo test" --skip-git-repo-check` 确认能正常应答。模型名不确定就不传 `-m`，用 Codex 自身配置的默认模型；传了不存在的模型名会直接报错（见"边界情况"第一条）。王老师指定了模型就用指定的。
 
 ## 执行流程
 
@@ -69,7 +46,7 @@ codex exec "<完整任务指令，见下方模板>" \
 
 | 参数 | 说明 |
 |------|------|
-| `-m <model>` | 指定模型——先用上面"模型选择"一节的命令查当前有效模型名，不要直接抄 `o3`/`gpt-5.1` 这类 OpenAI 官方名 |
+| `-m <model>` | 指定模型；不确定就不传，用默认模型 |
 | `-C <dir>` | 工作目录（绝对路径），相当于 qodercli 的 `--cwd` |
 | `--dangerously-bypass-approvals-and-sandbox` | 全自动执行，不打断确认，不沙箱限制 |
 | `--skip-git-repo-check` | 允许在非 git 仓库执行（安全，Codex 只是不需要 git 上下文） |
@@ -113,7 +90,7 @@ Codex 报"完成"不等于真的对——跟审查子 Agent 产出一个标准�
 
 ### 第 4 步：向王老师报告
 
-按这次会话一直在用的报告风格：改了什么、验证了什么（含具体命令和结果）、发现的问题（如果有）、还剩什么没做。**不要**因为代码是 Codex 写的就少一道审查——王老师要看到的是"这活干得对不对"，不是"谁干的"。
+按以下要点汇报：改了什么、验证了什么（含具体命令和结果）、发现的问题（如果有）、还剩什么没做。**不要**因为代码是 Codex 写的就少一道审查——王老师要看到的是"这活干得对不对"，不是"谁干的"。
 
 ## 边界情况
 

@@ -5,7 +5,7 @@ description: 宇树系列项目（Portal/EAM/Portal-API）的代码管理与部�
 
 # 宇树系列部署 SOP
 
-> 适用场景：王老师在 `/Users/wangpeng/Downloads/yushu/xitong/` 下维护的一体化平台 demo，部署到阿里云 `8.130.182.148`。
+> 适用场景：王老师在 `D:\0201yushu\0201yushu\xitong\`（Git Bash 写作 `/d/0201yushu/0201yushu/xitong/`）下维护的一体化平台 demo，部署到阿里云 `8.130.182.148`。
 
 ## 1. 项目地图（最重要，先记这个）
 
@@ -32,11 +32,11 @@ description: 宇树系列项目（Portal/EAM/Portal-API）的代码管理与部�
 
 ```bash
 # Portal（3011）
-cd /Users/wangpeng/Downloads/yushu/xitong/iimake-made-portal/iimake-made-portal
+cd /d/0201yushu/0201yushu/xitong/iimake-made-portal/iimake-made-portal
 ./deploy.sh
 
 # EAM（3010）
-cd /Users/wangpeng/Downloads/yushu/xitong/iimake-eam-console-rebuild
+cd /d/0201yushu/0201yushu/xitong/iimake-eam-console-rebuild
 ./deploy.sh
 ```
 
@@ -77,7 +77,7 @@ if (url.includes('/some-prefix/')) return null  // 返回 null 让请求走真 a
 
 ```bash
 # 本地修改后：
-cd /Users/wangpeng/Downloads/yushu/xitong/yushu-portal-api
+cd /d/0201yushu/0201yushu/xitong/yushu-portal-api
 git add -A && git commit -m "..."
 git push origin main
 
